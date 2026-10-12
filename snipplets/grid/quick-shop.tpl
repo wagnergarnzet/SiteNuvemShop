@@ -10,9 +10,9 @@
                             </div>
                         </div>
                         <div class="js-item-variants quickshop-item-variants">
-                            <a class="js-modal-close modal-close">
-                                <svg class="icon-inline svg-icon-text"><use xlink:href="#times"/></svg>
-                            </a>
+                            <button type="button" class="js-modal-close modal-close" aria-label="{{ 'Cerrar' | translate }}">
+                                <svg class="icon-inline svg-icon-text" aria-hidden="true"><use xlink:href="#times"/></svg>
+                            </button>
                             <div class="js-item-name quickshop-item-name mb-2 mb-md-0 mr-3"></div>
                             <div class="d-flex align-items-center justify-content-start mb-2 mr-md-1">
                                 <span class="js-compare-price-display price-compare h3 ml-2"></span>

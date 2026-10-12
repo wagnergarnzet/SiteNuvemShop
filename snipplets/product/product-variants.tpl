@@ -51,7 +51,7 @@
 				<label class="form-label">{{ variation.name }}: <strong class="js-insta-variation-label">{{ product.default_options[variation.id] }}</strong></label>
 				<div class="row no-gutters align-items-center justify-content-start no-scrollbar">
 				{% for option in variation.options %}
-					<a data-option="{{ option.id }}" class="js-insta-variant btn-variant{% if product.default_options[variation.id] is same as(option.id) %} selected{% endif %} {% if variation_color %}variant-color{% else %}bullet-variation{% endif %} insta-variations" title="{{ option.name }}" data-option="{{ option.id }}" data-variation-id="{{ variation.id }}">
+					<a href="#" role="button" aria-label="{{ option.name }}" data-option="{{ option.id }}" class="js-insta-variant btn-variant{% if product.default_options[variation.id] is same as(option.id) %} selected{% endif %} {% if variation_color %}variant-color{% else %}bullet-variation{% endif %} insta-variations" title="{{ option.name }}" data-option="{{ option.id }}" data-variation-id="{{ variation.id }}">
 						<span class="btn-variant-content{% if settings.image_color_variants and variation_color %} btn-variant-content-square{% endif %}"{% if option.custom_data and variation_color and (bullet_variants and not settings.image_color_variants) %} style="background: {{ option.custom_data }}; border: 2px solid #eee"{% endif %} data-name="{{ option.name }}">
 							{% if settings.image_color_variants and variation_color %}
 								{% if product.default_options[variation.id] is same as(option.id) %}
