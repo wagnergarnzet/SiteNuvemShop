@@ -54,26 +54,26 @@
                         <div class="input-append">                         
                             {# Name input #}
 
-                            {% embed "snipplets/forms/form-input.tpl" with{input_for: 'name', type_text: true, input_name: 'name', input_id: 'name', input_placeholder: 'Nombre' | translate, input_aria_label: 'Nombre' | translate } %}
+                            {% embed "snipplets/forms/form-input.tpl" with{input_for: 'home-popup-name', type_text: true, input_name: 'name', input_id: 'home-popup-name', input_placeholder: 'Nombre' | translate, input_aria_label: 'Nombre' | translate } %}
                             {% endembed %}
 
                             {% if settings.news_phone %}
 
                                 {# Phone input #}
 
-                                {% embed "snipplets/forms/form-input.tpl" with{input_for: 'phone', type_text: true, input_name: 'phone', input_id: 'phone', input_custom_class: 'phone', input_placeholder: 'Teléfono/WhatsApp' | translate, input_aria_label: 'Teléfono/WhatsApp' | translate } %}
+                                {% embed "snipplets/forms/form-input.tpl" with{input_for: 'home-popup-phone', type_text: true, input_name: 'phone', input_id: 'home-popup-phone', input_custom_class: 'phone', input_placeholder: 'Teléfono/WhatsApp' | translate, input_aria_label: 'Teléfono/WhatsApp' | translate } %}
                                 {% endembed %}
 
                             {% endif %}
                             
                             {# Email input #}
 
-                            {% embed "snipplets/forms/form-input.tpl" with{input_for: 'email', type_email: true, input_name: 'email', input_id: 'email', input_placeholder: 'Email' | translate, input_aria_label: 'Email' | translate } %}
+                            {% embed "snipplets/forms/form-input.tpl" with{input_for: 'home-popup-email', type_email: true, input_name: 'email', input_id: 'home-popup-email', input_placeholder: 'Email' | translate, input_aria_label: 'Email' | translate } %}
                             {% endembed %}
 
                             <div class="winnie-pooh" style="display: none;">
-                                <label for="winnie-pooh-newsletter">{{ "No completar este campo" | translate }}</label>
-                                <input id="winnie-pooh-newsletter" type="text" name="winnie-pooh"/>
+                                <label for="home-popup-winnie-pooh">{{ "No completar este campo" | translate }}</label>
+                                <input id="home-popup-winnie-pooh" type="text" name="winnie-pooh"/>
                             </div>
                             <input type="hidden" name="message" value="{{ "Pedido de inscripción a newsletter" | translate }}" />
                             <input type="hidden" name="type" value="newsletter" />
