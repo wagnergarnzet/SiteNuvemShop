@@ -1,0 +1,3 @@
+{% if "password_banner.jpg" | has_custom_image %}
+    <img src="{{ 'images/empty-placeholder.png' | static_url }}" data-srcset='{{ "password_banner.jpg" | static_url | settings_image_url('large') }} 480w, {{ "password_banner.jpg" | static_url | settings_image_url('huge') }} 640w, {{ "password_banner.jpg" | static_url | settings_image_url('original') }} 1024w' alt="{{ store.name }}" class="lazyautosizes lazyload blur-up-big img-fluid {{ position == 'form' ? 'mt-5' : 'mb-5' }}" />
+{% endif %}

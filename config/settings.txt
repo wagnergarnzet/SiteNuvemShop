@@ -1,0 +1,4559 @@
+Colores de tu marca
+	meta
+		icon = paint-brush
+		advanced = false
+	color
+		name = primary_color
+		description = Color principal
+	subtitle
+		subtitle = <div class='js-color-description'>Aparece en los títulos de las secciones de la página de inicio, en los íconos de redes sociales del pie de página, en el precio y en el botón de la página del producto y en el botón de pie de página.</div>		
+	color
+		name = secondary_color
+		description = Color secundario
+	subtitle
+		subtitle = <div class='js-color-description'>Aparece en los textos de la barra de contactos, íconos de encabezado, elementos del carrusel, títulos y textos del pie de página, enlaces y botones de variaciones en la página del producto.</div>			
+	color
+		name = accent_color
+		description = Color de acento
+	subtitle
+		subtitle = <div class='js-color-description'>Aplica a promociones, mensajes de descuento, envío gratis y cuotas sin interés.</div>
+	title
+		title = Botón de compra
+	color
+		name = add_button_background_color
+		description = Color de fondo
+	color
+		name = add_button_foreground_color
+		description = Color del texto
+	checkbox
+		name = add_button_invert
+		description = Invertir colores del botón
+	description
+		description = Invierte los colores y agrega un borde del color de fondo del botón.
+	title
+		title = Colores de contraste
+	color
+		name = background_color
+		description = Color de fondo
+	color
+		name = text_color
+		description = Color de textos
+	title
+		title = Etiqueta de envío gratis y descuento
+	color
+		name = label_background_color
+		description = Color de fondo
+	color
+		name = label_foreground_color
+		description = Color de textos			
+	description
+		description = Para facilitar la lectura, asegurate de que los colores contrasten entre sí.	
+	title
+		title = Combinaciones predeterminadas
+	description
+		description = Ideales para restablecer los colores por defecto del diseño.		
+	palettes
+		palettes
+			Clothing
+				primary_color = #555555
+				secondary_color = #111111
+				accent_color = #9b59b6
+				add_button_background_color = #111111
+				add_button_foreground_color = #ffffff
+				background_color = #ffffff
+				text_color = #111111
+				label_background_color = #111111
+				label_foreground_color = #ffffff
+				header_background_color = #ffffff
+				header_foreground_color = #111111
+				header_icons = #111111
+				header_contact_background_color = #ffffff
+				header_contact_foreground_color = #111111
+				header_contact_icons = #111111
+				adbar_background_color = #111111
+				adbar_foreground_color = #ffffff
+				adbar_icon_color = #ffffff
+				search_background_color = #ffffff
+				search_foreground_color = #666666
+				search_border_color = #999999
+				header_badge_background_color = #555555
+				header_badge_foreground_color = #ffffff
+				desktop_nav_background_color = #222222
+				desktop_nav_foreground_color = #ffffff
+				desktop_nav_hover_color = #dddddd
+				main_categories_background_color = #ffffff
+				main_categories_foreground_color = #111111
+				banner_services_background_color = #ffffff
+				banner_services_title_color = #111111
+				banner_services_foreground_color = #111111
+				banner_services_icon_color = #333333
+				featured_product_background_color = #ffffff
+				featured_product_foreground_color = #111111
+				new_product_background_color = #ffffff
+				new_product_foreground_color = #111111
+				sale_product_background_color = #ffffff
+				sale_product_foreground_color = #111111
+				promotion_product_background_color = #ffffff
+				promotion_product_foreground_color = #111111
+				best_seller_product_background_color = #ffffff
+				best_seller_product_foreground_color = #111111
+				banner_product_background_color = #ffffff
+				banner_product_content_background_color = #dddddd
+				banner_product_foreground_color = #111111
+				main_product_background_color = #ffffff
+				main_product_foreground_color = #111111
+				categories_background_color = #ffffff
+				categories_foreground_color = #111111
+				featured_banner_background_color = #ffffff
+				banner_promotional_background_color = #ffffff
+				banner_promotional_foreground_color = #111111
+				banner_promotional_overlay_color = #111111
+				banner_grid_background_color = #ffffff
+				banner_grid_foreground_color = #111111
+				blog_background_color = #ffffff
+				blog_foreground_color = #111111
+				institutional_background_color = #ffffff
+				institutional_foreground_color= #111111
+				brands_background_color = #ffffff
+				brands_foreground_color = #111111
+				video_color = #ffffff
+				testimonials_background_color = #dedede
+				testimonials_titles_color = #181818
+				testimonials_block_color = #ffffff
+				testimonials_foreground_color = #111111
+				welcome_background_color = #ffffff
+				welcome_foreground_color = #111111
+				extra_menu_background_color = #ffffff
+				extra_menu_foreground_color = #111111
+				instafeed_background_color = #111111
+				instafeed_foreground_color = #ffffff
+				newsletter_background_color = #eeeeee
+				newsletter_foreground_color = #111111
+				newsletter_button_background_color = #555555
+				newsletter_button_foreground_color = #ffffff
+				card_background = #ffffff
+				footer_background_color = #ffffff
+				footer_foreground_color = #111111
+				footer_titles_color = #222222
+				footer_icons_color = #555555
+				footer_form_background_color = #ffffff
+				footer_form_foreground_color = #111111
+				footer_form_title_color = #111111
+				footer_form_button_background_color = #555555
+				footer_form_button_foreground_color = #ffffff
+				footer_social_icons_color = #555555
+			Fashion
+				primary_color = #151515
+				secondary_color = #6d73fb
+				accent_color = #7eeaed
+				background_color = #ffffff
+				text_color = #151515
+				add_button_background_color = #7eeaed
+				add_button_foreground_color = #ffffff
+				label_background_color = #9b59b6
+				label_foreground_color = #151515
+				header_background_color = #ffffff
+				header_foreground_color = #151515
+				header_icons = #181818
+				header_contact_background_color = #ffffff
+				header_contact_foreground_color = #151515
+				header_contact_icons = #181818
+				header_badge_background_color = #555555
+				header_badge_foreground_color = #ffffff
+				adbar_background_color = #7eeaed
+				adbar_foreground_color = #ffffff
+				adbar_icon_color = #151515
+				search_background_color = #f5f5f5
+				search_foreground_color = #666666
+				search_border_color = #f1f1f1
+				search_icon_color = #151515
+				desktop_nav_background_color = #151515
+				desktop_nav_foreground_color = #ffffff
+				desktop_nav_hover_color = #999999
+				banner_services_background_color = #ffffff
+				banner_services_title_color = #151515
+				banner_services_foreground_color = #6d73fb
+				banner_services_icon_color = #151515
+				main_categories_background_color = #ffffff
+				main_categories_foreground_color = #181818
+				featured_product_background_color = #ffffff
+				featured_product_foreground_color = #181818
+				new_product_background_color = #ffffff
+				new_product_foreground_color = #181818
+				sale_product_background_color = #ffffff
+				sale_product_foreground_color = #181818
+				promotion_product_background_color = #ffffff
+				promotion_product_foreground_color = #181818
+				best_seller_product_background_color = #ffffff
+				best_seller_product_foreground_color = #181818
+				banner_product_background_color = #ffffff
+				banner_product_content_background_color = #fdfdfd
+				banner_product_foreground_color = #181818
+				main_product_background_color = #ffffff
+				main_product_foreground_color = #181818
+				categories_background_color = #ffffff
+				categories_foreground_color = #181818
+				featured_banner_background_color = #ffffff
+				banner_promotional_background_color = #ffffff
+				banner_promotional_foreground_color = #181818
+				banner_promotional_overlay_color = #181818
+				banner_grid_background_color = #ffffff
+				banner_grid_foreground_color = #181818
+				brands_background_color = #ffffff
+				brands_foreground_color = #181818
+				testimonials_background_color = #fafafa
+				testimonials_block_color = #ffffff
+				testimonials_foreground_color = #181818
+				instafeed_background_color = #151515
+				instafeed_foreground_color = #ffffff
+				blog_background_color = #ffffff
+				blog_foreground_color = #181818
+				welcome_background_color = #ffffff
+				welcome_foreground_color = #181818
+				institutional_background_color = #ffffff
+				institutional_foreground_color = #181818
+				video_color = #ffffff
+				extra_menu_background_color = #ffffff
+				extra_menu_foreground_color = #181818
+				newsletter_background_color = #dddddd
+				newsletter_foreground_color = #181818
+				newsletter_button_background_color = #555555
+				newsletter_button_foreground_color = #ffffff
+				item_background_color = #ffffff
+				footer_background_color = #ffffff
+				footer_foreground_color = #181818
+				footer_titles_color = #181818
+				footer_icons_color = #555555
+				footer_form_background_color = #f5f5f5
+				footer_form_foreground_color = #181818
+				footer_form_title_color = #181818
+				footer_form_input_background_color = #ffffff
+				footer_form_input_foreground_color = #181818
+				footer_form_button_background_color = #181818
+				footer_form_button_foreground_color = #ffffff
+				footer_social_icons_color = #888888
+			Sports
+				primary_color = #18181a
+				secondary_color = #18181a
+				accent_color = #e83c3e
+				background_color = #ffffff
+				text_color = #18181a
+				add_button_background_color = #181818
+				add_button_foreground_color = #ffffff
+				label_background_color = #9b59b6
+				label_foreground_color = #ffffff
+				header_background_color = #18181a
+				header_foreground_color = #ffffff
+				header_icons = #181818
+				header_contact_background_color = #18181a
+				header_contact_foreground_color = #95a5a6
+				header_contact_icons = #181818
+				header_badge_background_color = #555555
+				header_badge_foreground_color = #ffffff
+				adbar_background_color = #e83c3e
+				adbar_foreground_color = #ffffff
+				adbar_icon_color = #18181a
+				search_background_color = #242426
+				search_foreground_color = #999999
+				search_border_color = #242426
+				search_icon_color = #ffffff
+				desktop_nav_background_color = #181818
+				desktop_nav_foreground_color = #ffffff
+				desktop_nav_hover_color = #666666
+				banner_services_background_color = #ffffff
+				banner_services_title_color = #181818
+				banner_services_foreground_color = #181818
+				banner_services_icon_color = #666666
+				main_categories_background_color = #ffffff
+				main_categories_foreground_color = #181818
+				featured_product_background_color = #ffffff
+				featured_product_foreground_color = #181818
+				new_product_background_color = #ffffff
+				new_product_foreground_color = #181818
+				sale_product_background_color = #ffffff
+				sale_product_foreground_color = #181818
+				promotion_product_background_color = #ffffff
+				promotion_product_foreground_color = #181818
+				best_seller_product_background_color = #ffffff
+				best_seller_product_foreground_color = #181818
+				banner_product_background_color = #ffffff
+				banner_product_content_background_color = #fdfdfd
+				banner_product_foreground_color = #181818
+				main_product_background_color = #ffffff
+				main_product_foreground_color = #181818
+				categories_background_color = #ffffff
+				categories_foreground_color = #181818
+				featured_banner_background_color = #ffffff
+				banner_promotional_background_color = #ffffff
+				banner_promotional_foreground_color = #181818
+				banner_promotional_overlay_color = #181818
+				banner_grid_background_color = #ffffff
+				banner_grid_foreground_color = #181818
+				brands_background_color = #ffffff
+				brands_foreground_color = #181818
+				testimonials_background_color = #fafafa
+				testimonials_block_color = #ffffff
+				testimonials_foreground_color = #181818
+				instafeed_background_color = #ffffff
+				instafeed_foreground_color = #181818
+				blog_background_color = #ffffff
+				blog_foreground_color = #181818
+				welcome_background_color = #ffffff
+				welcome_foreground_color = #181818
+				institutional_background_color = #ffffff
+				institutional_foreground_color = #181818
+				video_color = #ffffff
+				extra_menu_background_color = #ffffff
+				extra_menu_foreground_color = #181818
+				newsletter_background_color = #dddddd
+				newsletter_foreground_color = #181818
+				newsletter_button_background_color = #555555
+				newsletter_button_foreground_color = #ffffff
+				footer_background_color = #18181a
+				footer_foreground_color = #ffffff
+				footer_titles_color = #ffffff
+				footer_icons_color = #e83c3e
+				footer_form_background_color = #141416
+				footer_form_foreground_color = #ffffff
+				footer_form_title_color = #ffffff
+				footer_form_input_background_color = #ffffff
+				footer_form_input_foreground_color = #ffffff
+				footer_form_button_background_color = #e83c3e
+				footer_form_button_foreground_color = #ffffff
+				footer_social_icons_color = #e83c3e
+			Electronics
+				primary_color = #2d3039
+				secondary_color = #2d3039
+				accent_color = #8e44ad
+				background_color = #ffffff
+				text_color = #181818
+				add_button_background_color = #8e44ad
+				add_button_foreground_color = #ffffff
+				label_background_color = #9b59b6
+				label_foreground_color = #ffffff
+				header_background_color = #ffffff
+				header_foreground_color = #181818
+				header_icons = #2d3039
+				header_contact_background_color = #ffffff
+				header_contact_foreground_color = #181818
+				header_contact_icons = #2d3039
+				header_badge_background_color = #555555
+				header_badge_foreground_color = #ffffff
+				adbar_background_color = #2d3039
+				adbar_foreground_color = #ffffff
+				adbar_icon_color = #ffffff
+				search_background_color = #f4f4f4
+				search_foreground_color = #2d3039
+				search_border_color = #f4f4f4
+				search_icon_color = #2d3039
+				desktop_nav_background_color = #2d3039
+				desktop_nav_foreground_color = #ffffff
+				desktop_nav_hover_color = #666666
+				banner_services_background_color = #ffffff
+				banner_services_title_color = #2d3039
+				banner_services_foreground_color = #2d3039
+				banner_services_icon_color = #666666
+				main_categories_background_color = #ffffff
+				main_categories_foreground_color = #2d3039
+				featured_product_background_color = #ffffff
+				featured_product_foreground_color = #2d3039
+				new_product_background_color = #ffffff
+				new_product_foreground_color = #2d3039
+				sale_product_background_color = #ffffff
+				sale_product_foreground_color = #2d3039
+				promotion_product_background_color = #ffffff
+				promotion_product_foreground_color = #2d3039
+				best_seller_product_background_color = #ffffff
+				best_seller_product_foreground_color = #2d3039
+				banner_product_background_color = #ffffff
+				banner_product_content_background_color = #fdfdfd
+				banner_product_foreground_color = #2d3039
+				main_product_background_color = #ffffff
+				main_product_foreground_color = #2d3039
+				categories_background_color = #ffffff
+				categories_foreground_color = #2d3039
+				featured_banner_background_color = #ffffff
+				banner_promotional_background_color = #ffffff
+				banner_promotional_foreground_color = #2d3039
+				banner_promotional_overlay_color = #2d3039
+				banner_grid_background_color = #ffffff
+				banner_grid_foreground_color = #2d3039
+				brands_background_color = #ffffff
+				brands_foreground_color = #2d3039
+				testimonials_background_color = #fafafa
+				testimonials_block_color = #ffffff
+				testimonials_foreground_color = #2d3039
+				instafeed_background_color = #2d3039
+				instafeed_foreground_color = #ffffff
+				blog_background_color = #ffffff
+				blog_foreground_color = #2d3039
+				welcome_background_color = #ffffff
+				welcome_foreground_color = #2d3039
+				institutional_background_color = #ffffff
+				institutional_foreground_color = #2d3039
+				video_color = #ffffff
+				extra_menu_background_color = #ffffff
+				extra_menu_foreground_color = #2d3039
+				newsletter_background_color = #dddddd
+				newsletter_foreground_color = #2d3039
+				newsletter_button_background_color = #2d3039
+				newsletter_button_foreground_color = #ffffff
+				footer_background_color = #ffffff
+				footer_foreground_color = #2d3039
+				footer_titles_color = #2d3039
+				footer_icons_color = #555555
+				footer_form_background_color = #f5f5f5
+				footer_form_foreground_color = #2d3039
+				footer_form_title_color = #2d3039
+				footer_form_input_background_color = #ffffff
+				footer_form_input_foreground_color = #2d3039
+				footer_form_button_background_color = #2d3039
+				footer_form_button_foreground_color = #ffffff
+				footer_social_icons_color = #2d3039		
+			Jewelry
+				primary_color = #C49D54
+				secondary_color = #000000
+				accent_color = #C49D54
+				background_color = #FFFFFF
+				text_color = #151515
+				add_button_background_color = #C49D54
+				add_button_foreground_color = #FFFFFF
+				label_background_color = #8A8A8A
+				label_foreground_color = #151515
+				header_background_color = #FFFFFF
+				header_foreground_color = #151515
+				header_icons = #181818
+				header_contact_background_color = #FAFAFA
+				header_contact_foreground_color = #151515
+				header_contact_icons = #C49D54
+				header_badge_background_color = #555555
+				header_badge_foreground_color = #FFFFFF
+				adbar_background_color = #000000
+				adbar_foreground_color = #FFFFFF
+				adbar_icon_color = #FFFFFF
+				search_background_color = #F5F5F5
+				search_foreground_color = #666666
+				search_border_color = #F1F1F1
+				search_icon_color = #151515
+				desktop_nav_background_color = #FFFFFF
+				desktop_nav_foreground_color = #000000
+				desktop_nav_hover_color = #C49D54
+				banner_services_background_color = #FFFFFF
+				banner_services_title_color = #181818
+				banner_services_foreground_color = #8A8A8A
+				banner_services_icon_color = #C49D54
+				main_categories_background_color = #FFFFFF
+				main_categories_foreground_color = #181818
+				featured_product_background_color = #FFFFFF
+				featured_product_foreground_color = #181818
+				new_product_background_color = #FFFFFF
+				new_product_foreground_color = #181818
+				sale_product_background_color = #FFFFFF
+				sale_product_foreground_color = #181818
+				promotion_product_background_color = #FFFFFF
+				promotion_product_foreground_color = #181818
+				best_seller_product_background_color = #FFFFFF
+				best_seller_product_foreground_color = #181818
+				banner_product_background_color = #FFFFFF
+				banner_product_content_background_color = #FAFAFA
+				banner_product_foreground_color = #181818
+				main_product_background_color = #FFFFFF
+				main_product_foreground_color = #181818
+				categories_background_color = #FFFFFF
+				categories_foreground_color = #181818
+				featured_banner_background_color = #FFFFFF
+				banner_promotional_background_color = #FFFFFF
+				banner_promotional_foreground_color = #181818
+				banner_promotional_overlay_color = #181818
+				banner_grid_background_color = #FFFFFF
+				banner_grid_foreground_color = #181818
+				brands_background_color = #FFFFFF
+				brands_foreground_color = #181818
+				testimonials_background_color = #FAFAFA
+				testimonials_block_color = #FFFFFF
+				testimonials_foreground_color = #181818
+				instafeed_background_color = #151515
+				instafeed_foreground_color = #FFFFFF
+				blog_background_color = #FFFFFF
+				blog_foreground_color = #181818
+				welcome_background_color = #FFFFFF
+				welcome_foreground_color = #181818
+				institutional_background_color = #FFFFFF
+				institutional_foreground_color = #181818
+				video_color = #FFFFFF
+				instafeed_background_color = #C49D54
+				instafeed_foreground_color = #FFFFFF
+				blog_background_color = #FAFAFA
+				blog_foreground_color = #181818
+				extra_menu_background_color = #FFFFFF
+				extra_menu_foreground_color = #181818
+				newsletter_background_color = #dddddd
+				newsletter_foreground_color = #181818
+				newsletter_button_background_color = #555555
+				newsletter_button_foreground_color = #FFFFFF
+				item_background_color = #FFFFFF
+				footer_background_color = #FFFFFF
+				footer_foreground_color = #181818
+				footer_titles_color = #181818
+				footer_icons_color = #C49D54
+				footer_form_background_color = #F5F5F5
+				footer_form_foreground_color = #181818
+				footer_form_title_color = #181818
+				footer_form_input_background_color = #FFFFFF
+				footer_form_input_foreground_color = #181818
+				footer_form_button_background_color = #181818
+				footer_form_button_foreground_color = #FFFFFF
+				footer_social_icons_color = #C49D54	
+			Beauty
+				primary_color = #181818
+				secondary_color = #181818
+				accent_color = #AF3969
+				background_color = #FFFFFF
+				text_color = #323235
+				add_button_background_color = #181818
+				add_button_foreground_color = #FFFFFF
+				label_background_color = #AF3969
+				label_foreground_color = #FFFFFF
+				header_background_color = #ffffff
+				header_foreground_color = #323235
+				header_icons = #e64878
+				adbar_background_color = #e64878
+				adbar_foreground_color = #ffffff
+				adbar_icon_color = #ffffff
+				header_badge_background_color = #e64878
+				header_badge_foreground_color = #ffffff
+				search_background_color = #fafafa
+				search_foreground_color = #444444
+				search_icon_color = #111111
+				search_border_color = #eeeeee
+				desktop_nav_background_color = #ffffff
+				desktop_nav_foreground_color = #242424
+				desktop_nav_hover_color = #ae396a
+				featured_link_foreground_color = #ffffff
+				featured_link_background_color = #ae396a
+				mobile_menu_background_color = #ffffff
+				mobile_menu_foreground_color = #181818
+				banner_services_background_color = #ffffff
+				banner_services_title_color = #181818
+				banner_services_foreground_color = #af3969
+				banner_services_icon_color = #af3969
+				banner_product_background_color = #faeff3
+				banner_product_content_background_color = #faeff3
+				banner_product_foreground_color = #323235
+				institutional_background_color = #fafafa
+				institutional_foreground_color = #181818
+				testimonials_background_color = #fafafa
+				testimonials_titles_color = #181818
+				testimonials_block_color = #ffffff
+				testimonials_foreground_color = #202020
+				instafeed_background_color = #323235
+				instafeed_foreground_color = #ffffff
+				footer_background_color = #ffffff
+				footer_foreground_color = #323235
+				footer_titles_color = #e64878
+				footer_icons_color = #e64878
+				footer_form_background_color = #e64878
+				footer_form_foreground_color = #ffffff
+				footer_form_input_background_color = #ffffff
+				footer_form_input_foreground_color = #444444
+				footer_form_button_background_color = #323235
+				footer_form_button_foreground_color = #ffffff
+				footer_social_icons_color = #ffffff
+	subtitle
+		subtitle = <a target='_blank' href='https://ayuda.tiendanube.com/es_ES/124497-colores-de-tu-marca/como-cambiar-los-colores-de-mi-diseno/?utm_source=admin-desktop&utm_medium=feature-page&utm_campaign=help'>¿Cómo cambio los colores de mi diseño?</a>
+Tipo de letra
+	meta
+		icon = font
+		advanced = false
+	collapse
+		title = Texto del menú
+	font
+		name = font_menu
+		description = Fuente
+		values
+			"Barlow", sans-serif = Barlow
+			"Bebas Neue", sans-serif = Bebas Neue
+			"Bree Serif", serif = Bree Serif
+			"Inter", sans-serif = Inter
+			"Josefin Sans", sans-serif = Josefin Sans
+			"Lato", sans-serif = Lato
+			"Lexend", sans-serif = Lexend
+			"Lexend Exa", sans-serif = Lexend Exa
+			"Libre Baskerville", serif = Libre Baskerville
+			"Lora", serif = Lora
+			"Merriweather", serif = Merriweather
+			"Montserrat", sans-serif = Montserrat
+			"Nunito", sans-serif = Nunito
+			"Open Sans", sans-serif = Open Sans
+			"Outfit", sans-serif = Outfit
+			"Plus Jakarta Sans", sans-serif = Plus Jakarta Sans
+			"Poppins", sans-serif = Poppins
+			"PT Sans", sans-serif = PT Sans
+			"Quicksand", sans-serif = Quicksand
+			"Raleway", sans-serif = Raleway
+			"Red Hat Display", sans-serif = Red Hat Display
+			"Roboto", sans-serif = Roboto
+			"Roboto Condensed", sans-serif = Roboto Condensed
+			"Roboto Mono", monospace = Roboto Mono
+			"Roboto Slab", serif = Roboto Slab
+			"Rubik", sans-serif = Rubik
+			"Sora", sans-serif = Sora
+			"Onest", sans-serif = Onest
+			"Quattrocento Sans", sans-serif = Quattrocento Sans
+	dropdown
+		name = font_menus_size
+		description = Tamaño
+		values
+			12 = 12
+			13 = 13
+			14 = 14
+			15 = 15
+			16 = 16
+	dropdown
+		name = font_menu_weight
+		description = Peso
+		values
+			300 = Fina
+			300italic = Fina cursiva
+			400 = Normal
+			400italic = Normal cursiva
+			700 = Negrita
+			700italic = Negrita cursiva		
+	subtitle
+		subtitle = <span class='legend'>⚠️<strong>Importante</strong><br/>Algunas fuentes pueden no contener algunas de sus variaciones y pesos. Consulta <a href='https://fonts.google.com' target='_blank'>Google Fonts</a> para más detalles.</span>
+	checkbox
+		name = menu_uppercase
+		description = Letras mayúsculas
+
+	collapse
+		title = Títulos de páginas y banners
+	font
+		name = font_headings
+		description = Fuente
+		values
+			"Barlow", sans-serif = Barlow
+			"Bebas Neue", sans-serif = Bebas Neue
+			"Bree Serif", serif = Bree Serif
+			"Cinzel", serif = Cinzel
+			"Inter", sans-serif = Inter
+			"Josefin Sans", sans-serif = Josefin Sans
+			"Lato", sans-serif = Lato
+			"Lexend", sans-serif = Lexend
+			"Lexend Exa", sans-serif = Lexend Exa
+			"Libre Baskerville", serif = Libre Baskerville
+			"Lora", serif = Lora
+			"Marcellus", serif = Marcellus
+			"Merriweather", serif = Merriweather
+			"Montserrat", sans-serif = Montserrat
+			"Nunito", sans-serif = Nunito
+			"Open Sans", sans-serif = Open Sans
+			"Outfit", sans-serif = Outfit
+			"Playfair Display", sans-serif = Playfair Display
+			"Plus Jakarta Sans", sans-serif = Plus Jakarta Sans
+			"Poppins", sans-serif = Poppins
+			"PT Sans", sans-serif = PT Sans
+			"Quicksand", sans-serif = Quicksand
+			"Raleway", sans-serif = Raleway
+			"Red Hat Display", sans-serif = Red Hat Display
+			"Roboto", sans-serif = Roboto
+			"Roboto Condensed", sans-serif = Roboto Condensed
+			"Roboto Mono", monospace = Roboto Mono
+			"Roboto Slab", serif = Roboto Slab
+			"Rubik", sans-serif = Rubik
+			"Sora", sans-serif = Sora
+			"Onest", sans-serif = Onest
+			"Quattrocento Sans", sans-serif = Quattrocento Sans
+			"Fraunces", serif = Fraunces
+			"Sacramento", serif = Sacramento
+	dropdown
+		name = font_headings_size
+		description = Tamaño
+		values
+			24 = 24
+			28 = 28
+			32 = 32
+			36 = 36
+			40 = 40
+			42 = 42
+			48 = 48
+	dropdown
+		name = font_headings_weight
+		description = Peso
+		values
+			300 = Fina
+			300italic = Fina cursiva
+			400 = Normal
+			400italic = Normal cursiva
+			700 = Negrita
+			700italic = Negrita cursiva
+	subtitle
+		subtitle = <span class='legend'>⚠️<strong>Importante</strong><br/>Algunas fuentes pueden no contener algunas de sus variaciones y pesos. Consulta <a href='https://fonts.google.com' target='_blank'>Google Fonts</a> para más detalles.</span>
+	checkbox
+		name = section_title_uppercase
+		description = Letras mayúsculas
+
+	collapse
+		title = Texto en el resto del sitio
+	font
+		name = font_rest
+		description = Fuente
+		values
+			"Barlow", sans-serif = Barlow
+			"Bebas Neue", sans-serif = Bebas Neue
+			"Bree Serif", serif = Bree Serif
+			"Inter", sans-serif = Inter
+			"Josefin Sans", sans-serif = Josefin Sans
+			"Lato", sans-serif = Lato
+			"Lexend", sans-serif = Lexend
+			"Lexend Exa", sans-serif = Lexend Exa
+			"Libre Baskerville", serif = Libre Baskerville
+			"Lora", serif = Lora
+			"Merriweather", serif = Merriweather
+			"Montserrat", sans-serif = Montserrat
+			"Nunito", sans-serif = Nunito
+			"Open Sans", sans-serif = Open Sans
+			"Outfit", sans-serif = Outfit
+			"Plus Jakarta Sans", sans-serif = Plus Jakarta Sans
+			"Poppins", sans-serif = Poppins
+			"PT Sans", sans-serif = PT Sans
+			"Quicksand", sans-serif = Quicksand
+			"Raleway", sans-serif = Raleway
+			"Red Hat Display", sans-serif = Red Hat Display
+			"Roboto", sans-serif = Roboto
+			"Roboto Condensed", sans-serif = Roboto Condensed
+			"Roboto Mono", monospace = Roboto Mono
+			"Roboto Slab", serif = Roboto Slab
+			"Rubik", sans-serif = Rubik
+			"Sora", sans-serif = Sora
+			"Onest", sans-serif = Onest
+			"Quattrocento Sans", sans-serif = Quattrocento Sans
+	dropdown
+		name = font_rest_size
+		description = Tamaño
+		values
+			11 = 11
+			12 = 12
+			13 = 13
+			14 = 14
+			15 = 15
+
+Estilos del diseño
+	meta
+		icon = swatchbook
+		advanced = true
+	title
+		title = Espaciado
+	dropdown
+		name = home_section_distance
+		description = Espaciado entre secciones en la página de inicio
+		values
+			20 = Mínimo
+			30 = Medio
+			40 = Máximo
+	title
+		title = Bordes
+	description
+		description = Aspecto general de elementos y formularios
+	dropdown
+		name = theme_round
+		description = Aspecto de los bordes
+		values
+			none = Recto
+			min = Redondeado mínimo
+			med = Redondeado medio
+			max = Redondeado máximo
+	title
+		title = Ancho de sección
+	dropdown
+		name = container_width
+		description = Ancho del contenido
+		values
+			normal = Normal
+			full = Completo
+	title
+		title = Mensaje de cookies
+	dropdown
+		name = cookie_banner_position
+		description = Posición del mensaje en computadoras
+		values
+			left = Izquierda
+			center = Centro
+			right = Derecha
+	title
+		title = Color del diseño en el navegador
+	checkbox
+		name = theme_color
+		description = Activar color principal del diseño en el navegador
+	subtitle
+		subtitle = <span class='legend'>Cambia el color de las barras de navegación al color principal elegido <a href='https://caniuse.com/meta-theme-color' target='_blank'>(ver lista de navegadores soportados)</a></span>
+
+Encabezado
+	meta
+		icon = arrow-up
+		advanced = true
+		
+	collapse
+		title = Diseño
+	dropdown
+		name = head_style
+		description = Diseño del encabezado en computadoras
+		values
+			style1 = Logo a la izquierda y menú abajo
+			style2 = Logo centrado y menú abajo
+			style3 = Logo a la izquierda y menú al lado
+			style4 = Logo centrado y menú escondido (hamburguesa)
+			style5 = Logo a la izquierda, menú centrado y buscador a la derecha
+	checkbox
+		name = head_fix_desktop
+		description = Encabezado siempre visible al navegar la tienda
+	subtitle
+		subtitle = Encabezado integrado al carrusel de imágenes
+	checkbox
+		name = head_transparent
+		description = Encabezado transparente sobre el carrusel de imágenes		
+
+	collapse
+		title = Imagen de fondo
+	title
+		title = Imagen de fondo en computadoras
+	checkbox
+		name = head_background
+		description = Mostrar imagen
+	image
+		original = head_background.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1920
+		height = 400
+	dropdown
+		name = head_background_size
+		description = Ajuste de la imagen
+		values
+			auto = Sin ajuste
+			cover = Cubrir el espacio (puede recortar)
+			contain = Mostrar completa (sin recorte)
+	subtitle
+		subtitle = <span class='legend'>Cubrir llena todo el espacio y puede recortar la imagen. Mostrar completa evita recorte y puede dejar márgenes vacíos.</span>
+	dropdown
+		name = head_background_repeat
+		description = Repetir imagen
+		values
+			no-repeat = No repetir
+			repeat = Repetir
+
+	title
+		title = Imagen de fondo en celulares
+	checkbox
+		name = head_background_mobile
+		description = Mostrar imagen
+	image
+		original = head_background_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 820
+		height = 300
+	dropdown
+		name = head_background_size_mobile
+		description = Ajuste de la imagen
+		values
+			auto = Sin ajuste
+			cover = Cubrir el espacio (puede recortar)
+			contain = Mostrar completa (sin recorte)
+	subtitle
+		subtitle = <span class='legend'>Cubrir llena todo el espacio y puede recortar la imagen. Mostrar completa evita recorte y puede dejar márgenes vacíos.</span>
+	dropdown
+		name = head_background_repeat_mobile
+		description = Repetir imagen
+		values
+			no-repeat = No repetir
+			repeat = Repetir
+
+	collapse
+		title = Colores
+	checkbox
+		name = header_colors
+		description = Usar estos colores
+	color
+		name = header_background_color
+		description = Color de fondo
+	color
+		name = header_foreground_color
+		description = Color de textos
+	color
+		name = header_icons
+		description = Color de íconos
+
+	collapse
+		title = Barra de anuncio
+	checkbox
+		name = ad_bar_show
+		description = Mostrar barra de anuncio
+	checkbox
+		name = adbar_colors
+		description = Usar estos colores
+	color
+		name = adbar_background_color
+		description = Color de fondo
+	color
+		name = adbar_foreground_color
+		description = Color de texto
+	color
+		name = adbar_icon_color
+		description = Color del ícono
+	subtitle
+		subtitle = Mensajes	
+	checkbox
+		name = adbar_carousel
+		description = Animar texto
+	dropdown
+		name = adbar_animation_type
+		description = Tipo de animación
+		values
+			carousel = Carrusel
+			marquee = De derecha a izquierda
+	subtitle
+		subtitle = Mensaje 1
+	dropdown
+		name = ad_bar_01_icon
+		description = Ícono
+		values
+			none = Ninguno
+			shipping = Envíos
+			cart = Entrega
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo
+	i18n_input
+		name = ad_bar_01_text
+		description = Texto
+	i18n_input
+		name = ad_bar_01_url
+		description = Link (opcional)
+	subtitle
+		subtitle = Mensaje 2
+	dropdown
+		name = ad_bar_02_icon
+		description = Ícono
+		values
+			none = Ninguno
+			shipping = Envíos
+			cart = Entrega
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo		
+	i18n_input
+		name = ad_bar_02_text
+		description = Texto
+	i18n_input
+		name = ad_bar_02_url
+		description = Link (opcional)
+	subtitle
+		subtitle = Mensaje 3
+	dropdown
+		name = ad_bar_03_icon
+		description = Ícono
+		values
+			none = Ninguno
+			shipping = Envíos
+			cart = Entrega
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo		
+	i18n_input
+		name = ad_bar_03_text
+		description = Texto
+	i18n_input
+		name = ad_bar_03_url
+		description = Link (opcional)
+	subtitle
+		subtitle = Mensaje 4
+	dropdown
+		name = ad_bar_04_icon
+		description = Ícono
+		values
+			none = Ninguno
+			shipping = Envíos
+			cart = Entrega
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo		
+	i18n_input
+		name = ad_bar_04_text
+		description = Texto
+	i18n_input
+		name = ad_bar_04_url
+		description = Link (opcional)	
+
+	collapse
+		title = Barra de contactos
+	checkbox
+		name = top_bar
+		description = Mostrar barra de contactos (solo en computadoras)
+	checkbox
+		name = header_contact_colors
+		description = Usar estos colores
+	color
+		name = header_contact_background_color
+		description = Color de fondo
+	color
+		name = header_contact_foreground_color
+		description = Color de textos
+	color
+		name = header_contact_icons
+		description = Color de íconos
+	checkbox
+		name = header_contact_line
+		description = Mostrar línea divisoria		
+	subtitle
+		subtitle = Información de contacto
+	checkbox
+		name = top_whatsapp
+		description = Mostrar WhatsApp
+	dropdown
+		name = top_whatsapp_format
+		description = Formato de visualización de WhatsApp
+		values
+			name = Texto
+			number = Número		
+	checkbox
+		name = top_phone
+		description = Mostrar teléfono
+	checkbox
+		name = top_email
+		description = Mostrar email
+	checkbox
+		name = top_social
+		description = Mostrar redes sociales
+	subtitle
+		subtitle = Menú en la barra de contactos
+	checkbox
+		name = top_menu_show
+		description = Mostrar menú en la barra de contactos
+	menu
+		name = top_menu
+		description = Elegir un menú para mostrar
+	subtitle
+		subtitle = Idiomas
+	checkbox
+		name = language_icons
+		description = Mostrar banderas de idioma
+	subtitle
+		subtitle = <span class='legend'><strong>Importante:</strong> Las opciones de idioma dependen del plan contratado por la tienda</span>
+
+	collapse
+		title = Logo
+	dropdown
+		name = logo_size
+		description = Tamaño del logo
+		values
+			small = Chico
+			medium = Mediano
+			big = Grande
+	collapse
+		title = Buscador
+	i18n_input
+		name = search_placeholder
+		description = Texto predeterminado del buscador
+	checkbox
+		name = search_colors
+		description = Usar estos colores
+	color
+		name = search_background_color
+		description = Color de fondo
+	color
+		name = search_foreground_color
+		description = Color de texto
+	color
+		name = search_icon_color
+		description = Color del ícono
+	color
+		name = search_border_color
+		description = Color del borde
+	dropdown
+		name = search_position
+		description = Ubicación del buscador en celulares
+		values
+			default = Abajo del logo
+			cart = Al lado del carrito
+			menu = Dentro del menú
+
+	collapse
+		title = Cuenta de usuario
+	description
+		description = Imagen para la cuenta
+	image
+		original = icon_account.png
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 64
+		height = 64
+	collapse
+		title = Carrito de compras
+	dropdown
+		name = icon_cart
+		description = Ícono del carrito
+		values
+			bag = Bolsa
+			basket = Cesta
+			transparent-bag = Bolso
+			shopping-cart = Carrito
+			custom = Personalizado
+	description
+		description = Imagen para el carrito personalizado
+	image
+		original = icon_cart.png
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 64
+		height = 64
+	subtitle
+		subtitle = Cantidad de items en el carrito
+	checkbox
+		name = header_badge_colors
+		description = Usar estos colores
+	color
+		name = header_badge_background_color
+		description = Color de fondo
+	color
+		name = header_badge_foreground_color
+		description = Color de textos
+
+	collapse
+		title = Menú principal
+	title
+		title = Menú principal en computadoras
+	menu
+		name = main_menu
+		description = Elegir un menú para mostrar
+	checkbox
+		name = desktop_nav_colors
+		description = Usar estos colores para el menú
+	color
+		name = desktop_nav_background_color
+		description = Color de fondo
+	color
+		name = desktop_nav_foreground_color
+		description = Color de textos
+	color
+		name = desktop_nav_hover_color
+		description = Color al pasar el mouse
+	dropdown
+		name = desktop_nav_position
+		description = Visualización del menú principal
+		values
+			center = Centrado
+			full = Alineado al contenido
+	dropdown
+		name = menu_design
+		description = Diseño del submenu
+		values
+			box = Cascada
+			full = Ancho total
+	subtitle
+		subtitle = Link destacado
+	i18n_input
+		name = featured_link_url
+		description = Link de la página que quieras destacar
+	description
+		description = Ej: https://tudominio.com/tu-link/
+	checkbox
+		name = featured_link_color
+		description = Usar este color para destacar el link
+	color
+		name = featured_link_foreground_color
+		description = Color de texto
+	color
+		name = featured_link_background_color
+		description = Color de fondo
+
+	collapse
+		title = Menú para celulares
+	checkbox
+		name = mobile_menu_colors
+		description = Usar estos colores		
+	color
+		name = mobile_menu_background_color
+		description = Color de fondo
+	color
+		name = mobile_menu_foreground_color
+		description = Color de texto
+	menu
+		name = mobile_menu
+		description = Elegir un menú para mostrar
+	dropdown
+		name = mobile_menu_icon
+		description = Ícono del menú
+		values
+			menu = Líneas variadas
+			bars = Líneas uniformes
+	i18n_input
+		name = mobile_menu_label
+		description = Título
+	checkbox
+		name = second_mobile_active
+		description = Mostrar el menú secundario en celulares
+	menu
+		name = mobile_menu_secondary
+		description = Elegir el menú secundario
+	i18n_input
+		name = mobile_menu_label_secondary
+		description = Título del menú secundario
+	subtitle
+		subtitle = Información de contacto
+	checkbox
+		name = mobile_menu_contacts
+		description = Mostrar información de contacto
+	i18n_input
+		name = mobile_menu_contacts_label
+		description = Título
+	checkbox
+		name = mobile_menu_social
+		description = Mostrar redes sociales
+
+	collapse
+		title = Menú de categorías
+	checkbox
+		name = departments_show
+		description = Mostrar menú de categorías (solo en computadoras)
+	menu
+		name = departments_menu
+		description = Elegí el menú
+	i18n_input
+		name = departments_menu_title
+		description = Título
+	checkbox
+		name = departments_uppercase
+		description = Mostrar texto en mayúsculas
+
+	collapse
+		title = Íconos en los menús
+	checkbox
+		name = navigation_icons
+		description = Mostrar íconos en el menú principal para computadoras
+	checkbox
+		name = show_icon_mobile
+		description = Mostrar íconos en el menú para celulares
+	dropdown
+		name = nav_icon_position
+		description = Posición del ícono
+		values
+			side = Al lado
+			above = Arriba
+	subtitle
+		subtitle = <span class='legend'><strong>Instrucciones:</strong></br>Después de insertar la imagen, completá con el enlace de la categoría que quieras vincular</span>
+	gallery
+		name = menu_icons
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 36
+		gallery_height = 36
+
+Página de inicio
+	meta
+		icon = home
+		advanced = true
+		default = home_order_position
+	collapse
+		title = Carrusel de imágenes
+		backto = home_order_position
+	checkbox
+		name = slider_colors
+		description = Usar estos colores
+	color
+		name = slider_background_color
+		description = Color de fondo
+	checkbox
+		name = slider_full
+		description = Extender al ancho de la pantalla
+	checkbox
+		name = slider_animation
+		description = Agregar efecto de movimiento a las imágenes del carrusel
+	checkbox
+		name = slider_distance
+		description = Agregar espaciado en computadoras
+	checkbox
+		name = slider_distance_mobile
+		description = Agregar espaciado en celulares
+	dropdown
+		name = slider_align
+		description = Alineación del texto
+		values
+			left = Izquierda
+			center = Centrado
+	dropdown
+		name = slider_speed
+		description = Tiempo de transición
+		values
+			4 = 4 segundos
+			6 = 6 segundos
+			8 = 8 segundos
+			12 = 12 segundos
+	dropdown
+		name = slider_effect
+		description = Efecto al pasar
+		values
+			slide = Deslizar
+			fade = Aparecer		
+	subtitle
+		subtitle = Imágenes para computadoras		
+	gallery
+		name = slider
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 1680
+		gallery_height = 560
+		gallery_more_info = true		
+	subtitle
+		subtitle = Imágenes para celulares	
+	checkbox
+		name = toggle_slider_mobile
+		description = Cargar otras imágenes para celulares
+	gallery
+		name = slider_mobile
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 720
+		gallery_height = 720
+		gallery_more_info = true
+	subtitle
+		subtitle = <a target='_blank' data-toggle-info='show-on_slider_mobile-inactive' href='https://ayuda.tiendanube.com/es/articles/3297783-como-usar-el-carrusel-de-imagenes-para-las-plantillas-idea-bahia-y-amazonas'>¿Cómo diseñar las imágenes para tu carrusel?</a>
+
+	collapse
+		title = Categorías principales
+		backto = home_order_position
+	checkbox
+		name = main_categories_colors
+		description = Usar estos colores
+	color
+		name = main_categories_background_color
+		description = Color de fondo
+	color
+		name = main_categories_foreground_color
+		description = Color de texto
+	checkbox
+		name = main_categories_text_outside
+		description = Mostrar texto fuera de la imagen
+	checkbox
+		name = main_categories_circle
+		description = Imágenes en formato de círculo
+	i18n_input
+		name = main_categories_title
+		description = Título
+	dropdown
+		name = main_categories_columns_mobile
+		description = Disposición de banners en celulares
+		values
+			1 = 1 banner por fila
+			2 = 2 banners por fila
+			3 = 3 banners por fila
+	dropdown
+		name = main_categories_columns_desktop
+		description = Disposición de banners en computadoras
+		values
+			1 = 1 banner por fila
+			2 = 2 banners por fila
+			3 = 3 banners por fila
+			4 = 4 banners por fila
+			5 = 5 banners por fila
+			6 = 6 banners por fila
+			8 = 8 banners por fila
+			10 = 10 banners por fila		
+	gallery
+		name = slider_categories
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 360
+		gallery_height = 360
+
+	collapse
+		title = Información de envíos, pagos y compra
+		backto = home_order_position
+	checkbox
+		name = banner_services
+		description = Mostrar los banners en la página principal
+	checkbox
+		name = banner_services_colors
+		description = Usar estos colores para la sección
+	color
+		name = banner_services_background_color
+		description = Color de fondo
+	color
+		name = banner_services_title_color
+		description = Color del título
+	color
+		name = banner_services_foreground_color
+		description = Color de la descripción
+	color
+		name = banner_services_icon_color
+		description = Color del ícono
+	subtitle
+		subtitle = Banner en computadoras
+	dropdown
+		name = banner_services_icon_size_desktop
+		description = Tamaño del ícono
+		values
+			24 = Chico
+			32 = Mediano
+			42 = Grande
+			60 = Muy grande
+	dropdown
+		name = banner_services_desktop
+		description = Posición del ícono
+		values
+			row = Al lado
+			column = Arriba
+	subtitle
+		subtitle = Banner en celulares
+	dropdown
+		name = banner_services_icon_size_mobile
+		description = Tamaño del ícono
+		values
+			24 = Chico
+			32 = Mediano
+			42 = Grande
+			60 = Muy grande			
+	dropdown
+		name = banner_services_mobile
+		description = Posición del ícono
+		values
+			row = Al lado
+			column = Arriba
+	dropdown
+		name = banner_services_mobile_format
+		description = Mostrar los banners como
+		values
+			slider = Carrusel
+			row = Uno debajo del otro
+			grid = Grilla
+	subtitle
+		subtitle = <span class='legend'>⚠️<strong>Importante:</strong> El formato en grilla funciona solamente con el ícono posicionado arriba</span>
+	subtitle
+		subtitle = BANNER 1
+	image
+		original = banner_services_01.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 128
+		height = 128		
+	dropdown
+		name = banner_services_01_icon
+		description = Ícono
+		values
+			none = Ninguno
+			image = Imagen personalizada
+			shipping = Envíos
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo
+	i18n_input
+		name = banner_services_01_title
+		description = Título
+	i18n_input
+		name = banner_services_01_description
+		description = Descripción
+	i18n_input
+		name = banner_services_01_url
+		description = Link
+	subtitle
+		subtitle = BANNER 2
+	image
+		original = banner_services_02.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 128
+		height = 128		
+	dropdown
+		name = banner_services_02_icon
+		description = Ícono
+		values
+			none = Ninguno
+			image = Imagen personalizada
+			shipping = Envíos
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo
+	i18n_input
+		name = banner_services_02_title
+		description = Título
+	i18n_input
+		name = banner_services_02_description
+		description = Descripción
+	i18n_input
+		name = banner_services_02_url
+		description = Link
+	subtitle
+		subtitle = BANNER 3
+	image
+		original = banner_services_03.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 128
+		height = 128		
+	dropdown
+		name = banner_services_03_icon
+		description = Ícono
+		values
+			none = Ninguno
+			image = Imagen personalizada
+			shipping = Envíos
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo
+	i18n_input
+		name = banner_services_03_title
+		description = Título
+	i18n_input
+		name = banner_services_03_description
+		description = Descripción
+	i18n_input
+		name = banner_services_03_url
+		description = Link
+	subtitle
+		subtitle = BANNER 4
+	image
+		original = banner_services_04.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 128
+		height = 128		
+	dropdown
+		name = banner_services_04_icon
+		description = Ícono
+		values
+			none = Ninguno
+			image = Imagen personalizada
+			shipping = Envíos
+			card = Tarjetas de crédito
+			security = Seguridad
+			returns = Cambios y devoluciones
+			whatsapp = WhatsApp
+			promotions = Promociones
+			barcode = Pago en efectivo
+	i18n_input
+		name = banner_services_04_title
+		description = Título
+	i18n_input
+		name = banner_services_04_description
+		description = Descripción
+	i18n_input
+		name = banner_services_04_url
+		description = Link
+
+	collapse
+		title = Productos destacados
+		backto = home_order_position
+	i18n_input
+		name = featured_products_title
+		description = Título
+	i18n_input
+		name = featured_products_subtitle
+		description = Subtítulo
+	checkbox
+		name = featured_product_colors
+		description = Usar estos colores para la sección		
+	color
+		name = featured_product_background_color
+		description = Color de fondo
+	color
+		name = featured_product_foreground_color
+		description = Color de textos
+	checkbox
+		name = featured_products_autoplay
+		description = Pasar los productos de forma automática al mostrarse como carrusel
+	subtitle
+		subtitle = Banner
+	i18n_input
+		name = featured_products_banner_url
+		description = Link del banner
+	checkbox
+		name = featured_product_banner_full
+		description = Extender al ancho de la pantalla
+	image
+		original = featured_products_banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1680
+		height = 280
+	subtitle
+		subtitle = Banner en celulares
+	image
+		original = featured_products_banner_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 720
+		height = 240
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Si no hay banner para celulares la imagen de la versión de computadoras será redimensionada</span>
+	subtitle
+		subtitle = Disposición en celulares
+	dropdown
+		name = featured_products_format_mobile
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = featured_products_mobile
+		description = Cantidad de productos por fila
+		values
+			1 = 1 producto
+			2 = 2 productos
+	subtitle
+		subtitle = Disposición en computadoras
+	dropdown
+		name = featured_products_format_desktop
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = featured_products_desktop
+		description = Cantidad de productos por fila
+		values
+			3 = 3 productos
+			4 = 4 productos
+			5 = 5 productos
+			6 = 6 productos			
+	dropdown
+		name = featured_products_scroll_quantity
+		description = Si es carrusel, cuántos productos pasan por vez
+		values
+			all = Toda la fila
+			one = Sólo uno
+	checkbox
+		name = featured_products_pagination
+		description = Mostrar paginación		
+	checkbox
+		name = featured_products_button
+		description = Mostrar botón 'Ver todos los productos'
+	i18n_input
+		name = featured_products_button_text
+		description = Texto del botón
+	i18n_input
+		name = featured_products_button_url
+		description = Link del botón
+	subtitle
+		subtitle = <a target='_blank' href='/admin/themes/settings/product_order/'>Elegí cuáles vas a destacar</a>
+
+	collapse
+		title = Productos nuevos
+		backto = home_order_position
+	i18n_input
+		name = new_products_title
+		description = Título
+	i18n_input
+		name = new_products_subtitle
+		description = Subtítulo
+	checkbox
+		name = new_product_colors
+		description = Usar estos colores para la sección		
+	color
+		name = new_product_background_color
+		description = Color de fondo
+	color
+		name = new_product_foreground_color
+		description = Color de textos
+	checkbox
+		name = new_products_autoplay
+		description = Pasar los productos de forma automática al mostrarse como carrusel
+	subtitle
+		subtitle = Banner
+	i18n_input
+		name = new_products_banner_url
+		description = Link del banner
+	checkbox
+		name = new_product_banner_full
+		description = Extender al ancho de la pantalla
+	image
+		original = new_products_banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1680
+		height = 280
+	subtitle
+		subtitle = Banner en celulares
+	image
+		original = new_products_banner_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 720
+		height = 240
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Si no hay banner para celulares la imagen de la versión de computadoras será redimensionada</span>
+	subtitle
+		subtitle = Disposición en celulares
+	dropdown
+		name = new_products_format_mobile
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = new_products_mobile
+		description = Cantidad de productos por fila
+		values
+			1 = 1 producto
+			2 = 2 productos
+	subtitle
+		subtitle = Disposición en computadoras
+	dropdown
+		name = new_products_format_desktop
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = new_products_desktop
+		description = Cantidad de productos por fila
+		values
+			3 = 3 productos
+			4 = 4 productos
+			5 = 5 productos
+			6 = 6 productos			
+	dropdown
+		name = new_products_scroll_quantity
+		description = Si es carrusel, cuántos productos pasan por vez
+		values
+			all = Toda la fila
+			one = Sólo uno
+	checkbox
+		name = new_products_pagination
+		description = Mostrar paginación
+	checkbox
+		name = new_products_button
+		description = Mostrar botón 'Ver todos los productos'
+	i18n_input
+		name = new_products_button_text
+		description = Texto del botón
+	i18n_input
+		name = new_products_button_url
+		description = Link del botón
+	subtitle
+		subtitle = <a target='_blank' href='/admin/themes/settings/product_order/'>Elegí cuáles vas a destacar</a>
+
+	collapse
+		title = Productos en oferta
+		backto = home_order_position
+	i18n_input
+		name = sale_products_title
+		description = Título
+	i18n_input
+		name = sale_products_subtitle
+		description = Subtítulo
+	checkbox
+		name = sale_product_colors
+		description = Usar estos colores para la sección		
+	color
+		name = sale_product_background_color
+		description = Color de fondo
+	color
+		name = sale_product_foreground_color
+		description = Color de textos
+	checkbox
+		name = sale_products_autoplay
+		description = Pasar los productos de forma automática al mostrarse como carrusel
+	subtitle
+		subtitle = Banner
+	i18n_input
+		name = sale_products_banner_url
+		description = Link del banner
+	checkbox
+		name = sale_product_banner_full
+		description = Extender al ancho de la pantalla
+	image
+		original = sale_products_banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1680
+		height = 280
+	subtitle
+		subtitle = Banner en celulares
+	image
+		original = sale_products_banner_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 720
+		height = 240
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Si no hay banner para celulares la imagen de la versión de computadoras será redimensionada</span>
+	subtitle
+		subtitle = Disposición en celulares
+	dropdown
+		name = sale_products_format_mobile
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = sale_products_mobile
+		description = Cantidad de productos por fila
+		values
+			1 = 1 producto
+			2 = 2 productos
+	subtitle
+		subtitle = Disposición en computadoras
+	dropdown
+		name = sale_products_format_desktop
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = sale_products_desktop
+		description = Cantidad de productos por fila
+		values
+			3 = 3 productos
+			4 = 4 productos
+			5 = 5 productos
+			6 = 6 productos			
+	dropdown
+		name = sale_products_scroll_quantity
+		description = Si es carrusel, cuántos productos pasan por vez
+		values
+			all = Toda la fila
+			one = Sólo uno
+	checkbox
+		name = sale_products_pagination
+		description = Mostrar paginación			
+	checkbox
+		name = sale_products_button
+		description = Mostrar botón 'Ver todos los productos'
+	i18n_input
+		name = sale_products_button_text
+		description = Texto del botón
+	i18n_input
+		name = sale_products_button_url
+		description = Link del botón
+	subtitle
+		subtitle = <a target='_blank' href='/admin/themes/settings/product_order/'>Elegí cuáles vas a destacar</a>	
+
+	collapse
+		title = Productos en promoción
+		backto = home_order_position
+	i18n_input
+		name = promotion_products_title
+		description = Título
+	i18n_input
+		name = promotion_products_subtitle
+		description = Subtítulo
+	checkbox
+		name = promotion_product_colors
+		description = Usar estos colores para la sección		
+	color
+		name = promotion_product_background_color
+		description = Color de fondo
+	color
+		name = promotion_product_foreground_color
+		description = Color de textos
+	checkbox
+		name = promotion_products_autoplay
+		description = Pasar los productos de forma automática al mostrarse como carrusel
+	subtitle
+		subtitle = Banner
+	i18n_input
+		name = promotion_products_banner_url
+		description = Link del banner
+	checkbox
+		name = promotion_product_banner_full
+		description = Extender al ancho de la pantalla
+	image
+		original = promotion_products_banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1680
+		height = 280
+	subtitle
+		subtitle = Banner en celulares
+	image
+		original = promotion_products_banner_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 720
+		height = 240
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Si no hay banner para celulares la imagen de la versión de computadoras será redimensionada</span>
+	subtitle
+		subtitle = Disposición en celulares
+	dropdown
+		name = promotion_products_format_mobile
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = promotion_products_mobile
+		description = Cantidad de productos por fila
+		values
+			1 = 1 producto
+			2 = 2 productos
+	subtitle
+		subtitle = Disposición en computadoras
+	dropdown
+		name = promotion_products_format_desktop
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = promotion_products_desktop
+		description = Cantidad de productos por fila
+		values
+			3 = 3 productos
+			4 = 4 productos
+			5 = 5 productos
+			6 = 6 productos	
+	dropdown
+		name = promotion_products_scroll_quantity
+		description = Si es carrusel, cuántos productos pasan por vez
+		values
+			all = Toda la fila
+			one = Sólo uno
+	checkbox
+		name = promotion_products_pagination
+		description = Mostrar paginación
+	checkbox
+		name = promotion_products_button
+		description = Mostrar botón 'Ver todos los productos'
+	i18n_input
+		name = promotion_products_button_text
+		description = Texto del botón
+	i18n_input
+		name = promotion_products_button_url
+		description = Link del botón
+	subtitle
+		subtitle = <a target='_blank' href='/admin/themes/settings/product_order/'>Elegí cuáles vas a destacar</a>
+
+	collapse
+		title = Productos más vendidos
+		backto = home_order_position
+	i18n_input
+		name = best_seller_products_title
+		description = Título
+	i18n_input
+		name = best_seller_products_subtitle
+		description = Subtítulo
+	checkbox
+		name = best_seller_product_colors
+		description = Usar estos colores para la sección		
+	color
+		name = best_seller_product_background_color
+		description = Color de fondo
+	color
+		name = best_seller_product_foreground_color
+		description = Color de textos
+	checkbox
+		name = best_seller_products_autoplay
+		description = Pasar los productos de forma automática al mostrarse como carrusel
+	subtitle
+		subtitle = Banner
+	i18n_input
+		name = best_seller_products_banner_url
+		description = Link del banner
+	checkbox
+		name = best_seller_product_banner_full
+		description = Extender al ancho de la pantalla
+	image
+		original = best_seller_products_banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1680
+		height = 280
+	subtitle
+		subtitle = Banner en celulares
+	image
+		original = best_seller_products_banner_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 720
+		height = 240
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Si no hay banner para celulares la imagen de la versión de computadoras será redimensionada</span>
+	subtitle
+		subtitle = Disposición en celulares
+	dropdown
+		name = best_seller_products_format_mobile
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = best_seller_products_mobile
+		description = Cantidad de productos por fila
+		values
+			1 = 1 producto
+			2 = 2 productos
+	subtitle
+		subtitle = Disposición en computadoras
+	dropdown
+		name = best_seller_products_format_desktop
+		description = Mostrar los productos como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = best_seller_products_desktop
+		description = Cantidad de productos por fila
+		values
+			3 = 3 productos
+			4 = 4 productos
+			5 = 5 productos
+			6 = 6 productos
+	dropdown
+		name = best_seller_products_scroll_quantity
+		description = Si es carrusel, cuántos productos pasan por vez
+		values
+			all = Toda la fila
+			one = Sólo uno
+	checkbox
+		name = best_seller_products_pagination
+		description = Mostrar paginación
+	checkbox
+		name = best_seller_products_button
+		description = Mostrar botón 'Ver todos los productos'
+	i18n_input
+		name = best_seller_products_button_text
+		description = Texto del botón
+	i18n_input
+		name = best_seller_products_button_url
+		description = Link del botón
+	subtitle
+		subtitle = <a target='_blank' href='/admin/themes/settings/product_order/'>Elegí cuáles vas a destacar</a>
+
+	collapse
+		title = Productos con banner
+		backto = home_order_position
+	i18n_input
+		name = banner_products_title
+		description = Título
+	checkbox
+		name = banner_product_colors
+		description = Usar estos colores para la sección		
+	color
+		name = banner_product_background_color
+		description = Color de fondo de la sección
+	color
+		name = banner_product_content_background_color
+		description = Color de fondo del bloque
+	color
+		name = banner_product_foreground_color
+		description = Color de textos
+	checkbox
+		name = banner_products_autoplay
+		description = Pasar los productos de forma automática al mostrarse como carrusel
+	dropdown
+		name = banner_products_mobile
+		description = Cantidad de productos por fila en celulares
+		values
+			1 = 1 producto
+			2 = 2 productos
+	dropdown
+		name = banner_products_columns
+		description = Cantidad de productos por fila en computadoras
+		values
+			2 = 2 productos
+			3 = 3 productos
+			4 = 4 productos
+	dropdown
+		name = banner_products_scroll_quantity
+		description = Cuántos productos pasan por vez
+		values
+			all = Toda la fila
+			one = Sólo uno
+	checkbox
+		name = banner_products_pagination
+		description = Mostrar paginación			
+	subtitle
+		subtitle = <a target='_blank' href='/admin/themes/settings/product_order/'>Elegí cuáles vas a destacar</a>
+	subtitle
+		subtitle = <span class='legend'><b>Importante:</b> La sección 'Productos con banner' puede no aparecer si estás personalizando un borrador.</span>
+	dropdown
+		name = banner_products_show
+		description = Qué mostrar junto a los productos
+		values
+			banner = Banner
+			text = Texto
+	title
+		title = Banner
+	image
+		original = banner_products.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 400
+		height = 600
+	subtitle
+		subtitle = <span class='js-description-html legend'>Banner en computadoras</span>
+	image
+		original = banner_products_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 600
+		height = 600
+	subtitle
+		subtitle = <span class='js-description-html legend'>Banner en celulares</span>
+	i18n_input
+		name = banner_products_link
+		description = Link del banner		
+	title
+		title = Texto
+	i18n_input
+		name = banner_products_box_title
+		description = Título		
+	i18n_input
+		name = banner_products_description
+		description = Descripción
+	i18n_input
+		name = banner_products_button_text
+		description = Texto del botón
+	i18n_input
+		name = banner_products_button_url
+		description = Link del botón
+
+	collapse
+		title = Producto principal
+		backto = home_order_position
+	description
+		description = Se va a mostrar un solo producto de la sección 'Principal'.
+	dropdown
+		name = main_product_type
+		description = Mostrar:
+		values
+			first = El primero de la lista
+			random = En forma aleatoria
+	i18n_input
+		name = main_product_title
+		description = Título			
+	i18n_input
+		name = main_product_subtitle
+		description = Subtítulo		
+	subtitle
+		subtitle = <a target='_blank' href='/admin/themes/settings/product_order/'>Elegí cuál vas a destacar</a>	
+
+	collapse
+		title = Banners de categorías
+		backto = home_order_position
+	checkbox
+		name = banner_colors
+		description = Usar estos colores para la sección
+	color
+		name = categories_background_color
+		description = Color de fondo
+	color
+		name = categories_foreground_color
+		description = Color de texto
+	checkbox
+		name = banner_text_outside
+		description = Mostrar texto fuera de la imagen
+	checkbox
+		name = banner_same_size
+		description = Usar el mismo alto para todos los banners
+	checkbox
+		name = banner_without_margins
+		description = Quitar espacios entre los banners
+	dropdown
+		name = banner_align
+		description = Alineación del texto
+		values
+			left = Izquierda
+			center = Centrado
+	i18n_input
+		name = banner_title
+		description = Título
+	i18n_input
+		name = banner_subtitle
+		description = Subtítulo
+	subtitle
+		subtitle = Imágenes para computadoras
+	dropdown
+		name = banner_format_desktop
+		description = Mostrar como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = banner_columns_desktop
+		description = Disposición de banners en computadoras
+		values
+			1 = 1 banner por fila
+			2 = 2 banners por fila
+			3 = 3 banners por fila
+			4 = 4 banners por fila
+	gallery
+		name = banner
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 640
+		gallery_height = 640
+		gallery_more_info = true
+	subtitle
+		subtitle = Imágenes para celulares
+	dropdown
+		name = banner_format_mobile
+		description = Mostrar como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	checkbox
+		name = toggle_banner_mobile
+		description = Cargar otras imágenes para celulares
+	gallery
+		name = banner_mobile
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 820
+		gallery_height = 1000
+		gallery_more_info = true
+
+	collapse
+		title = Banner destacado
+		backto = home_order_position
+	checkbox
+		name = featured_banner_colors
+		description = Usar este color		
+	color
+		name = featured_banner_background_color
+		description = Color de fondo
+	i18n_input
+		name = featured_banner_url
+		description = Link
+	subtitle
+		subtitle = Banner en computadoras
+	image
+		original = featured-banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1280
+		height = 200
+	subtitle
+		subtitle = Banner en celulares
+	image
+		original = featured-banner-mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 600
+		height = 200
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Si no hay banner para celulares la imagen de la versión de computadoras será redimensionada</span>
+
+	collapse
+		title = Banners promocionales
+		backto = home_order_position
+	checkbox
+		name = banner_promotional_colors
+		description = Usar estos colores
+	color
+		name = banner_promotional_background_color
+		description = Color de fondo
+	color
+		name = banner_promotional_foreground_color
+		description = Color de texto
+	color
+		name = banner_promotional_overlay_color
+		description = Color de la superposición de la imagen
+	dropdown
+		name = banner_promotional_overlay_opacity
+		description = Intensidad de la superposición
+		values
+			15 = 15%
+			30 = 30%
+			45 = 45%
+			60 = 60%
+			75 = 75%		
+			90 = 90%
+	checkbox
+		name = banner_promotional_text_outside
+		description = Mostrar texto fuera de la imagen
+	checkbox
+		name = banner_promotional_without_margins
+		description = Quitar espacios entre los banners
+	dropdown
+		name = banner_promotional_align
+		description = Alineación del texto
+		values
+			left = Izquierda
+			center = Centrado
+	i18n_input
+		name = banner_promotional_title
+		description = Título para los banners promocionales
+	subtitle
+		subtitle = Imágenes para computadoras
+	dropdown
+		name = banner_promotional_format_desktop
+		description = Mostrar como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	dropdown
+		name = banner_promotional_columns_desktop
+		description = Disposición de banners en computadoras
+		values
+			1 = 1 banner por fila
+			2 = 2 banners por fila
+			3 = 3 banners por fila
+			4 = 4 banners por fila
+	gallery
+		name = banner_promotional
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 640
+		gallery_height = 320
+		gallery_more_info = true
+	subtitle
+		subtitle = Imágenes para celulares
+	dropdown
+		name = banner_promotional_format_mobile
+		description = Mostrar como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	checkbox
+		name = toggle_banner_promotional_mobile
+		description = Cargar otras imágenes para celulares
+	gallery
+		name = banner_promotional_mobile
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 640
+		gallery_height = 320
+		gallery_more_info = true
+
+	collapse
+		title = Banners en grilla
+		backto = home_order_position
+	description
+		description = Los tamaños de los banners dependen de la cantidad que quieras mostrar
+	checkbox
+		name = banner_grid_colors
+		description = Usar estos colores para la sección
+	color
+		name = banner_grid_background_color
+		description = Color de fondo
+	color
+		name = banner_grid_foreground_color
+		description = Color de textos
+	subtitle
+		subtitle = Cuántos banners querés mostrar
+	dropdown_banners
+		name = banner_grid_quantity
+		description = Cantidad de Banners
+		values
+			four_banner = 4 Banners
+			three_banner = 3 Banners
+			two_banner = 2 Banners
+			one_banner = 1 Banner
+		infograph
+			one_banner = <svg width="135" height="57" fill="none"><path fill="#fff" d="M0 0h135v57H0z"/><rect x=".5" y=".5" width="134" height="56" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><path d="M68.3494 22.42v9.1h-.936v-8.268h-2.145v-.832h3.081z" fill="#439BD7"/></svg>
+			two_banner = <svg width="135" height="56" fill="none"><path fill="#fff" d="M0 0h135v56H0z"/><rect x=".5" y=".5" width="63.4663" height="55" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><rect x="71.0337" y=".5" width="63.4663" height="55" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><path d="M33.0825 22.06v9.1h-.936v-8.268h-2.145v-.832h3.081zM105.204 30.328v.832h-6.3829v-.663l3.7829-3.705c.477-.468.797-.871.962-1.209.173-.3466.26-.6933.26-1.04 0-.5373-.186-.9533-.559-1.248-.364-.3033-.888-.455-1.573-.455-1.066 0-1.8936.338-2.4829 1.014l-.663-.572c.3553-.416.806-.7366 1.352-.962.5549-.2253 1.1789-.338 1.8719-.338.927 0 1.66.221 2.197.663.546.4334.819 1.0314.819 1.794 0 .468-.104.9187-.312 1.352-.208.4334-.602.9317-1.183 1.495l-3.094 3.042h5.005z" fill="#439BD7"/></svg>
+			three_banner = <svg width="135" height="56" fill="none"><path fill="#fff" d="M0 0h135v56H0z"/><rect x=".5" y=".5" width="63.4663" height="55" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><rect x="71.0337" y=".5" width="63.4663" height="23.64" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><rect x="71.0337" y="32.6067" width="63.4663" height="22.8933" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><path d="M33.0825 22.8066v9.1h-.936v-8.268h-2.145v-.832h3.081zM105.963 15.6347v.832h-6.3835v-.663l3.7835-3.705c.476-.468.797-.871.962-1.209.173-.3467.26-.6934.26-1.04 0-.5374-.187-.9534-.559-1.248-.364-.3034-.889-.455-1.573-.455-1.066 0-1.894.338-2.4835 1.014l-.663-.572c.3553-.416.8065-.7367 1.3525-.962.554-.2254 1.178-.338 1.872-.338.927 0 1.659.221 2.197.663.546.4333.819 1.0313.819 1.794 0 .468-.104.9186-.312 1.352-.208.4333-.603.9316-1.183 1.495l-3.094 3.042h5.005zM102.868 42.88c.953.052 1.677.312 2.171.78.503.4593.754 1.0616.754 1.807 0 .52-.126.9836-.377 1.391-.251.3986-.624.715-1.118.949-.494.234-1.096.351-1.807.351-.659 0-1.283-.104-1.872-.312-.581-.2167-1.0488-.5027-1.4041-.858l.455-.741c.3033.312.7061.5676 1.2091.767.503.1906 1.04.286 1.612.286.745 0 1.322-.1604 1.729-.481.407-.3294.611-.78.611-1.352 0-.5634-.204-1.0054-.611-1.326-.407-.3207-1.023-.481-1.846-.481h-.65v-.689l2.522-3.159h-4.6541v-.832h5.8501v.663l-2.574 3.237z" fill="#439BD7"/></svg>
+			four_banner = <svg width="135" height="57" fill="none"><g clip-path="url(#clip0)"><path fill="#fff" d="M0 0h135v57H0z"/><rect x=".5" y=".5" width="63.5618" height="55.5954" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><rect x="71.1382" y=".5" width="63.5618" height="23.902" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><rect x="71.1382" y="32.1934" width="27.8629" height="23.902" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><rect x="106.837" y="32.1934" width="27.8629" height="23.902" rx="1.5" fill="#C8E9FF" stroke="#439BD7"/><path d="M33.1302 22.2744v9.1h-.936v-8.268h-2.145v-.832h3.081zM124.502 46.3382h-1.82v2.392h-.936v-2.392h-5.135v-.676l4.823-6.032h1.04l-4.654 5.876h3.952v-2.106h.91v2.106h1.82v.832zM85.5505 43.5302c.9534.052 1.677.312 2.171.78.5027.4594.754 1.0617.754 1.807 0 .52-.1256.9837-.377 1.391-.2513.3987-.624.715-1.118.949-.494.234-1.0963.351-1.807.351-.6586 0-1.2826-.104-1.872-.312-.5806-.2166-1.0486-.5026-1.404-.858l.455-.741c.3034.312.7064.5677 1.209.767.5027.1907 1.04.286 1.612.286.7454 0 1.3217-.1603 1.729-.481.4074-.3293.611-.78.611-1.352 0-.5633-.2036-1.0053-.611-1.326-.4073-.3206-1.0226-.481-1.846-.481h-.65v-.689l2.522-3.159h-4.654v-.832h5.85v.663l-2.574 3.237zM105.355 16.2049v.832h-6.3828v-.663l3.7828-3.705c.477-.468.798-.871.962-1.209.174-.3467.26-.6934.26-1.04 0-.5374-.186-.9534-.559-1.248-.364-.3034-.888-.455-1.573-.455-1.066 0-1.8935.338-2.4828 1.014l-.663-.572c.3553-.416.806-.7367 1.3518-.962.555-.2254 1.179-.338 1.872-.338.928 0 1.66.221 2.197.663.546.4333.819 1.0313.819 1.794 0 .468-.104.9186-.312 1.352-.208.4333-.602.9316-1.183 1.495l-3.094 3.042h5.005z" fill="#439BD7"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h135v57H0z"/></clipPath></defs></svg>
+		infosizes
+			one_banner = <span class="size"><span class="title">Banner 1</span><i class="far fa-arrows-alt-h"></i>1270px<i class="far fa-arrows-alt-v"></i>635px</span>
+			two_banner = <span class="size"><span class="title">Banner 1 e 2</span><i class="far fa-arrows-alt-h"></i>625px<i class="far fa-arrows-alt-v"></i>625px</span>
+			three_banner = <span class="size"><span class="title">Banner 1</span><i class="far fa-arrows-alt-h"></i>625px<i class="far fa-arrows-alt-v"></i>625px</span> <span class="size"><span class="title">Banner 2 e 3</span><i class="far fa-arrows-alt-h"></i>625px<i class="far fa-arrows-alt-v"></i>303px</span>
+			four_banner = <span class="size"><span class="title">Banner 1</span><i class="far fa-arrows-alt-h"></i>625px<i class="far fa-arrows-alt-v"></i>625px</span> <span class="size"><span class="title">Banner 2</span><i class="far fa-arrows-alt-h"></i>625px<i class="far fa-arrows-alt-v"></i>303px</span> <span class="size"><span class="title">Banner 3 e 4</span> <i class="far fa-arrows-alt-h"></i>303px<i class="far fa-arrows-alt-v"></i>303px</span>
+	subtitle
+		subtitle = Banner 1
+	checkbox
+		name = grid_01_show
+		description = Mostrar banner
+	image
+		original = grid_01.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 650
+		height = 650
+		dynamic_dimensions
+			one_banner = 1270x635
+			two_banner = 625x625
+			three_banner = 625x625
+			four_banner = 625x625
+	i18n_input
+		name = grid_01_title
+		description = Título
+	i18n_input
+		name = grid_01_button
+		description = Texto del botón
+	i18n_input
+		name = grid_01_url
+		description = Link
+	subtitle
+		subtitle = Banner 2
+	checkbox
+		name = grid_02_show
+		description = Mostrar banner
+	image
+		original = grid_02.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 600
+		height = 600
+		dynamic_dimensions
+			two_banner = 700x700
+			three_banner = 700x340
+			four_banner = 700x340
+	i18n_input
+		name = grid_02_title
+		description = Título
+	i18n_input
+		name = grid_02_button
+		description = Texto del botón
+	i18n_input
+		name = grid_02_url
+		description = Link
+	subtitle
+		subtitle = Banner 3
+	checkbox
+		name = grid_03_show
+		description = Mostrar banner
+	image
+		original = grid_03.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 600
+		height = 600
+		dynamic_dimensions
+			three_banner = 700x340
+			four_banner = 340x340
+	i18n_input
+		name = grid_03_title
+		description = Título
+	i18n_input
+		name = grid_03_button
+		description = Texto del botón
+	i18n_input
+		name = grid_03_url
+		description = Link
+	subtitle
+		subtitle = Banner 4
+	checkbox
+		name = grid_04_show
+		description = Mostrar banner
+	image
+		original = grid_04.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 600
+		height = 600
+		dynamic_dimensions
+			four_banner = 340x340
+	i18n_input
+		name = grid_04_title
+		description = Título
+	i18n_input
+		name = grid_04_button
+		description = Texto del botón
+	i18n_input
+		name = grid_04_url
+		description = Link
+
+	collapse
+		title = Módulos de imagen y texto
+		backto = home_order_position
+	description
+		description = Podés cargar los módulos que necesites, sin límite de cantidad.
+	checkbox
+		name = module_same_size
+		description = Usar el mismo alto para todos los módulos
+	checkbox
+		name = module_shadow
+		description = Agregar sombra al módulo
+	dropdown
+		name = module_align
+		description = Alineación del texto
+		values
+			left = Izquierda
+			center = Centrado
+	i18n_input
+		name = module_title
+		description = Título
+	i18n_input
+		name = module_subtitle
+		description = Subtítulo
+	gallery
+		name = module
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 1920
+		gallery_height = 900
+		gallery_more_info = true
+	subtitle
+		subtitle = Disposición en computadoras
+	dropdown
+		name = module_format_desktop
+		description = Mostrar como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	checkbox
+		name = module_slide_desktop_autoplay
+		description = Pasar de forma automática al mostrarse como carrusel
+	range_number
+		name = module_columns_desktop
+		description = Cantidad por fila
+		min = 1
+		max = 5
+		step = 1
+	subtitle
+		subtitle = Disposición en celulares
+	dropdown
+		name = module_format_mobile
+		description = Mostrar como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	checkbox
+		name = module_slide_mobile_autoplay
+		description = Pasar de forma automática al mostrarse como carrusel
+	checkbox
+		name = module_slide_mobile_centered
+		description = Centrar el módulo al mostrarse como carrusel
+	dropdown
+		name = module_text_position_mobile
+		description = Posición del texto
+		values
+			side = Al lado de la imagen
+			below = Debajo de la imagen
+
+	collapse
+		title = Marcas
+		backto = home_order_position
+	i18n_input
+		name = brands_title
+		description = Título	
+	checkbox
+		name = brands_colors
+		description = Usar estos colores para la sección
+	color
+		name = brands_background_color
+		description = Color de fondo
+	color
+		name = brands_foreground_color
+		description = Color de texto
+	dropdown
+		name = brands_format
+		description = Mostrar como:
+		values
+			grid = Grilla
+			slider = Carrusel
+	checkbox
+		name = brands_autoplay
+		description = Pasar de forma automática al mostrarse como carrusel
+	gallery
+		name = brands
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 240
+		gallery_height = 240
+
+	collapse
+		title = Testimonios
+		backto = home_order_position
+	checkbox
+		name = testimonials_colors
+		description = Usar estos colores
+	color
+		name = testimonials_background_color
+		description = Color de fondo
+	color
+		name = testimonials_titles_color
+		description = Color de los títulos
+	color
+		name = testimonials_block_color
+		description = Color de fondo del testimonio
+	color
+		name = testimonials_foreground_color
+		description = Color de texto del testimonio
+	i18n_input
+		name = testimonials_title
+		description = Título
+	i18n_input
+		name = testimonials_subtitle
+		description = Subtítulo
+	checkbox
+		name = testimonials_stars
+		description = Mostrar estrellas en los testimonios
+	dropdown
+		name = testimonials_per_view
+		description = Testimonios por fila en computadoras
+		values
+			2 = 2
+			3 = 3
+			4 = 4
+	subtitle
+		subtitle = Testimonio 1
+	image
+		original = testimonial_01.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_01_name
+		description = Nombre
+	i18n_input
+		name = testimonial_01_description
+		description = Descripción
+	subtitle
+		subtitle = Testimonio 2
+	image
+		original = testimonial_02.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_02_name
+		description = Nombre
+	i18n_input
+		name = testimonial_02_description
+		description = Descripción
+	subtitle
+		subtitle = Testimonio 3
+	image
+		original = testimonial_03.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_03_name
+		description = Nombre
+	i18n_input
+		name = testimonial_03_description
+		description = Descripción
+	subtitle
+		subtitle = Testimonio 4
+	image
+		original = testimonial_04.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_04_name
+		description = Nombre
+	i18n_input
+		name = testimonial_04_description
+		description = Descripción
+	subtitle
+		subtitle = Testimonio 5
+	image
+		original = testimonial_05.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_05_name
+		description = Nombre
+	i18n_input
+		name = testimonial_05_description
+		description = Descripción
+	subtitle
+		subtitle = Testimonio 6
+	image
+		original = testimonial_06.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_06_name
+		description = Nombre
+	i18n_input
+		name = testimonial_06_description
+		description = Descripción
+	subtitle
+		subtitle = Testimonio 7
+	image
+		original = testimonial_07.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_07_name
+		description = Nombre
+	i18n_input
+		name = testimonial_07_description
+		description = Descripción
+	subtitle
+		subtitle = Testimonio 8
+	image
+		original = testimonial_08.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 350
+		height = 350
+	i18n_input
+		name = testimonial_08_name
+		description = Nombre
+	i18n_input
+		name = testimonial_08_description
+		description = Descripción
+
+	collapse
+		title = Preguntas frecuentes
+		backto = home_order_position
+	checkbox
+		name = faq_colors
+		description = Usar estos colores
+	color
+		name = faq_background_color
+		description = Color de fondo
+	color
+		name = faq_foreground_color
+		description = Color de texto
+	i18n_input
+		name = faq_title
+		description = Título
+	i18n_input
+		name = faq_subtitle
+		description = Subtítulo
+	subtitle
+		subtitle = Mostrar en la página
+	checkbox
+		name = faq_page_show
+		description = Mostrar módulo de preguntas frecuentes en una página
+	i18n_input
+		name = faq_page_link
+		description = Link de la página
+	dropdown
+		name = faq_page_display
+		description = Mostrar en
+		values
+			page = Página exclusiva
+			below = Debajo del contenido
+	subtitle
+		subtitle = Mostrar en los productos
+	checkbox
+		name = faq_product
+		description = Mostrar módulo de preguntas frecuentes en las páginas de productos
+	subtitle
+		subtitle = Pregunta 1
+	i18n_input
+		name = faq_item_01_question
+		description = Pregunta
+	textarea
+		name = faq_item_01_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 2
+	i18n_input
+		name = faq_item_02_question
+		description = Pregunta
+	textarea
+		name = faq_item_02_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 3
+	i18n_input
+		name = faq_item_03_question
+		description = Pregunta
+	textarea
+		name = faq_item_03_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 4
+	i18n_input
+		name = faq_item_04_question
+		description = Pregunta
+	textarea
+		name = faq_item_04_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 5
+	i18n_input
+		name = faq_item_05_question
+		description = Pregunta
+	textarea
+		name = faq_item_05_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 6
+	i18n_input
+		name = faq_item_06_question
+		description = Pregunta
+	textarea
+		name = faq_item_06_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 7
+	i18n_input
+		name = faq_item_07_question
+		description = Pregunta
+	textarea
+		name = faq_item_07_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 8
+	i18n_input
+		name = faq_item_08_question
+		description = Pregunta
+	textarea
+		name = faq_item_08_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 9
+	i18n_input
+		name = faq_item_09_question
+		description = Pregunta
+	textarea
+		name = faq_item_09_answer
+		description = Respuesta
+	subtitle
+		subtitle = Pregunta 10
+	i18n_input
+		name = faq_item_10_question
+		description = Pregunta
+	textarea
+		name = faq_item_10_answer
+		description = Respuesta
+
+	collapse
+		title = Publicaciones de Instagram
+		backto = home_order_position
+	checkbox
+		name = instafeed_colors
+		description = Usar estos colores
+	color
+		name = instafeed_background_color
+		description = Color de fondo
+	color
+		name = instafeed_foreground_color
+		description = Color del texto		
+	dropdown
+		name = instafeed_posts
+		description = ¿Qué publicaciones querés mostrar?
+		values
+			instagram = Instagram
+			custom = Personalizadas		
+	subtitle
+		subtitle = Para mostrar tus publicaciones de Instagram tu perfil debe ser público y necesitás generar un token, <a target='_blank' href='https://ayuda.tiendanube.com/es_ES/123224-redes-sociales/como-mostrar-mis-publicaciones-de-instagram-en-mi-tiendanube'>¿cómo configurarlo?</a>		
+	dropdown
+		name = instafeed_style
+		description = Disposición
+		values
+			container = Ancho del contenido
+			full-width = Ancho total
+	range_number
+		name = instafeed_count
+		description = Cantidad de publicaciones
+		min = 2
+		max = 8
+	dropdown
+		name = instafeed_gutters
+		description = Espaciado entre las imágenes
+		values
+			0 = Ninguno
+			1 = Chico
+			2 = Mediano
+			3 = Grande
+	dropdown
+		name = instafeed_size
+		description = Tamaño del nombre de usuario
+		values
+			small = Chico
+			medium = Mediano
+			large = Grande
+	checkbox
+		name = instafeed_user
+		description = Mostrar el usuario de Instagram junto a las publicaciones
+	dropdown
+		name = instafeed_user_position
+		description = Ubicación del usuario de Instagram
+		values
+			top = Arriba de las publicaciones
+			left = Izquierda de las publicaciones
+	subtitle
+		subtitle = Si no ingresaste tu usuario de Instagram, hacelo desde <a target='_blank' href='/admin/v2/online-store/social-networks/'>acá</a>
+	title
+		title = Publicaciones personalizadas
+	description
+		description = Elegí y ordená acá las imágenes personalizadas
+	gallery
+		name = custom_feed
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 1080
+		gallery_height = 1080
+		gallery_more_info = true
+
+	collapse
+		title = Publicaciones del blog
+		backto = home_order_position
+	checkbox
+		name = blog_colors
+		description = Usar estos colores
+	color
+		name = blog_background_color
+		description = Color de fondo
+	color
+		name = blog_foreground_color
+		description = Color de texto
+	dropdown
+		name = blog_posts_format_mobile
+		description = Disposición en celulares
+		values
+			grid = Grilla
+			slider = Carrusel		
+	i18n_input
+		name = blog_title
+		description = Título
+	i18n_input
+		name = blog_subtitle
+		description = Descripción
+	i18n_input
+		name = blog_text
+		description = Texto del botón para el blog
+	subtitle
+		subtitle = <span class='js-description-html legend'>Ej.: Acceder a noticias</span>
+	i18n_input
+		name = blog_url
+		description = Link del botón para el blog
+	i18n_input
+		name = blog_more_text
+		description = Texto del botón del post
+	subtitle
+		subtitle = <span class='js-description-html legend'>Ej.: Ver más</span>
+	subtitle
+		subtitle = POST 1
+	image
+		original = post_01.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 620
+		height = 620
+	i18n_input
+		name = post_01_title
+		description = Título
+	i18n_input
+		name = post_01_description
+		description = Descripción
+	i18n_input
+		name = post_01_url
+		description = URL		
+	subtitle
+		subtitle = POST 2
+	image
+		original = post_02.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 620
+		height = 620
+	i18n_input
+		name = post_02_title
+		description = Título
+	i18n_input
+		name = post_02_description
+		description = Descripción
+	i18n_input
+		name = post_02_url
+		description = URL		
+	subtitle
+		subtitle = POST 3
+	image
+		original = post_03.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 620
+		height = 620
+	i18n_input
+		name = post_03_title
+		description = Título
+	i18n_input
+		name = post_03_description
+		description = Descripción
+	i18n_input
+		name = post_03_url
+		description = URL		
+	subtitle
+		subtitle = POST 4
+	image
+		original = post_04.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 620
+		height = 620
+	i18n_input
+		name = post_04_title
+		description = Título
+	i18n_input
+		name = post_04_description
+		description = Descripción
+	i18n_input
+		name = post_04_url
+		description = URL
+
+	collapse
+		title = Mensaje de bienvenida
+		backto = home_order_position
+	checkbox
+		name = welcome_colors
+		description = Usar estos colores
+	color
+		name = welcome_background_color
+		description = Color de fondo
+	color
+		name = welcome_foreground_color
+		description = Color de texto
+	i18n_input
+		name = welcome_title
+		description = Título		
+	i18n_input
+		name = welcome_message
+		description = Mensaje
+	i18n_input
+		name = welcome_link
+		description = Link
+	image
+		original = welcome-image.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 930
+		height = 465
+	dropdown
+		name = welcome_image_side
+		description = Posição da imagem
+		values
+			left = Izquierda
+			right = Derecha
+			center = Centrado
+
+	collapse
+		title = Mensaje institucional
+		backto = home_order_position
+	checkbox
+		name = institutional_colors
+		description = Usar estos colores
+	color
+		name = institutional_background_color
+		description = Color de fondo
+	color
+		name = institutional_foreground_color
+		description = Color de texto
+	checkbox
+		name = institutional_full_width
+		description = Extender al ancho de la pantalla
+	checkbox
+		name = institutional_on_pages
+		description = Mostrar en las páginas institucionales
+	subtitle
+		subtitle = Imagen
+	image
+		original = institutional-image.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 960
+		height = 640
+	checkbox
+		name = institutional_overlay
+		description = Usar imagen como fondo de la sección
+	dropdown
+		name = institutional_overlay_opacity
+		description = Intensidad de la superposición (solamente si la imagen es fondo)
+		values
+			1 = 0
+			0.85 = 15%
+			0.7 = 30%
+			0.55 = 45%
+			0.4 = 60%
+			0.25 = 75%
+			0.1 = 90%		
+	subtitle
+		subtitle = Contenido
+	i18n_input
+		name = banner_home_title
+		description = Título
+	i18n_input
+		name = banner_home_description
+		description = Descripción
+	i18n_input
+		name = banner_home_button
+		description = Texto del botón
+	i18n_input
+		name = banner_home_url
+		description = Link
+
+	collapse
+		title = Video
+		backto = home_order_position
+	checkbox
+		name = video_full
+		description = Extender al ancho de la pantalla
+	dropdown
+		name = video_type
+		description = Tipo de reproducción
+		values
+			autoplay = Automática y sin sonido
+			sound = Con sonido y sin reproducción automática
+	i18n_input
+		name = video_embed
+		description = Link de YouTube
+	description
+		description = Ej: https://www.youtube.com/watch?v=Yn19Od1H0S4
+	subtitle
+		subtitle = Imagen del video
+	description
+		description = No aplica si el tipo de reproducción es automática y el video no está en la primera posición
+	image
+		original = video_image.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1280
+		height = 720
+	color
+		name = video_color
+		description = Color de textos e íconos
+	i18n_input
+		name = video_subtitle
+		description = Subtítulo
+	i18n_input
+		name = video_title
+		description = Título
+	i18n_input
+		name = video_text
+		description = Descripción
+	i18n_input
+		name = video_button
+		description = Texto del botón
+	i18n_input
+		name = video_button_url
+		description = Link del botón
+	checkbox
+		name = video_vertical_mobile
+		description = Usar formato vertical en celulares
+
+	collapse
+		title = Menú adicional
+		backto = home_order_position
+	checkbox
+		name = extra_menu_show
+		description = Mostrar menú en la página
+	checkbox
+		name = extra_menu_colors
+		description = Usar estos colores para la sección
+	color
+		name = extra_menu_background_color
+		description = Color de fondo
+	color
+		name = extra_menu_foreground_color
+		description = Color de textos		
+	i18n_input
+		name = extra_menu_title
+		description = Título para la sección
+	dropdown
+		name = extra_menu_size
+		description = Tamaño de los ítems del menú
+		values
+			small = Chico
+			medium = Mediano
+			large = Grande
+	dropdown
+		name = extra_menu_gap
+		description = Espaçamento entre os itens
+		values
+			10 = Chico
+			20 = Mediano
+			30 = Grande		
+	menu
+		name = extra_menu
+		description = Elegí el menú
+
+	collapse
+		title = Newsletter
+		backto = home_order_position
+	checkbox
+		name = newsletter_colors
+		description = Usar estos colores para la sección
+	color
+		name = newsletter_background_color
+		description = Color de fondo
+	color
+		name = newsletter_foreground_color
+		description = Color del texto
+	color
+		name = newsletter_button_background_color
+		description = Color del botón
+	color
+		name = newsletter_button_foreground_color
+		description = Texto del botón
+	subtitle
+		subtitle = <span class='legend'><b>Importante:</b> Los colores elegidos para la sección no interfieren en el formulario del pie de página</span>
+
+	collapse
+		title = Pop-up promocional
+		backto = home_order_position
+	checkbox
+		name = show_news_box
+		description = Mostrar Pop-up			
+	checkbox
+		name = home_popup_form
+		description = Mostrar formulario
+	subtitle
+		subtitle = Imagen para el pop-up
+	image
+		title = Cargar imagen (JPG, GIF, PNG)
+		original = newsletter_image.jpg
+		width = 600
+		height = 600
+	subtitle
+		subtitle = Logo para el pop-up
+	checkbox
+		name = home_popup_logo
+		description = Mostrar logo
+	image
+		title = Cargar imagen (JPG, GIF, PNG)
+		original = newsletter_logo.jpg
+		width = 300
+		height = 200
+	subtitle
+		subtitle = Textos del pop-up
+	i18n_input
+		name = news_popup_txt
+		description = ¡Invitá a los clientes a registrarse para recibir tus novedades!
+	i18n_input
+		name = news_popup_success_txt
+		description = Frase de agradecimiento al registrarse
+	subtitle
+		subtitle = Link para la imagen del pop-up (si no hay formulario)
+	i18n_input
+		name = home_popup_url
+		description = Link de la imagen
+	checkbox
+		name = home_popup_external
+		description = Abrir link en una nueva ventana	
+	subtitle
+		subtitle = Cookie - tiempo hasta que vuelva a aparecer
+	i18n_input
+		name = home_popup_cookie
+		description = Tiempo de almacenamiento de la cookie (en días)
+	subtitle
+		subtitle = <span class='legend'>Ingresá solamente números</span>
+
+	collapse
+		title = Página de inicio
+		backto = _top
+	section_order
+		name = home_order_position
+		start_index = 1
+		sections
+			slider = Carrusel de imágenes
+			informatives = Información de envíos, pagos y compra
+			main_categories = Categorías principales
+			categories = Banners de categorías
+			promotional = Banners promocionales
+			grid = Banners en grilla
+			featured_banner = Banner destacado
+			banner_products = Productos con banner
+			products = Productos destacados
+			new = Productos nuevos
+			sale = Productos en oferta
+			promotion = Productos en promoción
+			best_seller = Productos más vendidos
+			main_product = Producto principal
+			brands = Marcas
+			testimonials = Testimonios
+			faq = Preguntas frecuentes
+			video = Video
+			institutional = Mensaje institucional
+			welcome = Mensaje de bienvenida
+			instafeed = Publicaciones de Instagram
+			blog = Publicaciones del blog
+			extra_menu = Menú adicional
+			newsletter = Newsletter
+			modules = Módulos de imagen y texto
+	link
+		text = Pop-up promocional
+		linkto = show_news_box
+
+Página de categoría
+	meta
+		icon = th-large
+		advanced = true
+	title
+		title = Banners de categorías
+	subtitle
+		subtitle = Podés subir una imagen diferente para cada categoría <a target='_blank' href='/admin/categories/'>desde acá</a>
+	collapse
+		title = Banner de la parte superior
+	subtitle
+		subtitle = Banner en computadoras
+	image
+		title = Cargar imagen (JPG, GIF, PNG)
+		original = banner-products.jpg
+		url = banner_products_url
+		url_description = Link
+		width = 1580    
+		height = 220
+	subtitle
+		subtitle = Banner en celulares		
+	image
+		title = Cargar imagen (JPG, GIF, PNG)
+		original = banner-products-mobile.jpg
+		width = 600
+		height = 200	
+	checkbox
+		name = banner_products_external
+		description = Abrir link en una nueva ventana		
+	collapse
+		title = Banner de la parte inferior
+	subtitle
+		subtitle = Banner en computadoras
+	image
+		title = Cargar imagen (JPG, GIF, PNG)
+		original = banner-products-footer.jpg
+		url = banner_products_footer_url
+		url_description = Link
+		width = 1280
+		height = 200
+	subtitle
+		subtitle = Banner en celulares
+	image
+		title = Cargar imagen (JPG, GIF, PNG)
+		original = banner-products-footer-mobile.jpg
+		width = 600
+		height = 200
+	checkbox
+		name = banner_products_footer_external
+		description = Abrir link en una nueva ventana
+	collapse
+		title = Filtros y paginación
+	subtitle
+		subtitle = <span class='js-description-html'><strong>Configurá los filtros</strong> de tu tienda desde <a target='_blank' href='/admin/v2/filters' class='font-bold'>el administrador</a></span>		
+	title
+		title = Filtros
+	checkbox
+		name = filters_desktop_modal
+		description = Abrir filtros a la derecha del listado de productos al cliquear en 'filtrar' (solo en computadoras)
+	dropdown
+		name = pagination
+		description = Mostrar los productos usando:
+		values
+			classic = Navegación entre páginas
+			infinite = Carga infinita
+	collapse
+		title = Productos en el listado
+	dropdown
+		name = grid_columns_mobile
+		description = Cantidad de productos por fila en celulares
+		values
+			1 = 1 producto
+			2 = 2 productos
+	dropdown
+		name = grid_columns_desktop
+		description = Cantidad de productos por fila en computadoras
+		values
+			3 = 3 productos
+			4 = 4 productos
+			5 = 5 productos			
+			6 = 6 productos
+	collapse
+		title = Contenido de la categoría (SEO)
+	checkbox
+		name = category_content
+		description = Mostrar contenido de la categoría debajo del listado de productos
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Para que este recurso funcione, necesitás <a target='_blank' href='/admin/pages/'>crear una página</a> con la URL <strong>cat-{slug}</strong>. El <strong>slug</strong> es la última parte de la URL de la categoría (por ejemplo, en <strong>/remeras</strong>, el slug es <strong>remeras</strong>).</span>
+Item de producto
+	meta
+		icon = address-card
+		advanced = true
+	collapse
+		title = Estructura
+	checkbox
+		name = item_animation
+		description = Agregar efecto de animación al posar el mouse
+	checkbox
+		name = item_same_height
+		description = Usar la misma altura para todos los ítems
+	dropdown
+		name = item_text_align
+		description = Alineación del texto
+		values
+			center = Centrado
+			left = Izquierda
+	checkbox
+		name = item_borders
+		description = Quitar bordes y espacios de los ítems
+	checkbox
+		name = item_quantity
+		description = Mostrar campo de cantidad
+	subtitle
+		subtitle = <span class='legend'><strong>Nota:</strong> Este campo solo se muestra con la compra rápida activada, en productos sin variantes y con el segundo botón de compra rápida desactivado.</span>
+	checkbox
+		name = item_colors
+		description = Usar estos colores
+	color
+		name = item_background_color
+		description = Color de fondo
+	subtitle
+		subtitle = Marca
+	checkbox
+		name = item_brand
+		description = Mostrar la marca del producto
+	subtitle
+		subtitle = Variantes
+	checkbox
+		name = product_size_variants
+		description = Mostrar variantes de tamaño
+	checkbox
+		name = product_one_size
+		description = Mostrar tamaño 'único' para productos sin variantes o con una sola variante
+	checkbox
+		name = product_color_variants
+		description = Mostrar variantes de color
+	dropdown
+		name = item_colors_on_image
+		description = Posición de los variantes de color
+		values
+			description = Abajo de la foto
+			image = Sobre la foto
+	subtitle
+		subtitle = Etiquetas
+	checkbox
+		name = last_product_card
+		description = Mostrar etiqueta de última unidad
+	collapse
+		title = Foto del producto
+	checkbox
+		name = product_hover
+		description = Mostrar la segunda foto al posar el mouse
+	dropdown
+		name = item_image_format_size
+		description = Formato de la foto
+		values
+			0 = Original
+			1 = Cuadrada (1:1)
+			2 = Horizontal (4:3)
+			3 = Vertical (3:4)
+			4 = Vertical (2:3)
+			5 = Vertical (9:16)
+	collapse
+		title = Nombre del producto
+	dropdown
+		name = item_name_size
+		description = Tamaño
+		values
+			small = Chico
+			medium = Mediano
+			large = Grande
+	dropdown
+		name = item_name_lines
+		description = Límite de líneas
+		values
+			2 = 2
+			3 = 3
+			4 = 4
+	collapse
+		title = Precio del producto
+	title
+		title = Precio destacado
+	dropdown
+		name = item_featured_price
+		description = Elegir el precio para destacar
+		values
+			price = Precio principal
+			offer = Precio con descuento
+			installments = Precio en cuotas
+	dropdown
+		name = item_price_size
+		description = Tamaño
+		values
+			small = Chico
+			medium = Mediano
+			large = Grande
+	title
+		title = Precio principal
+	checkbox
+		name = item_price_color
+		description = Usar este color
+	color
+		name = item_price_foreground_color
+		description = Color del texto
+	title
+		title = Descuento por medio de pago
+	checkbox
+		name = item_payment_icon
+		description = Mostrar el ícono del medio de pago
+	checkbox
+		name = item_payment_discount_price_color
+		description = Usar este color
+	color
+		name = item_payment_discount_price_foreground_color
+		description = Color del texto
+	subtitle
+		subtitle = <span class='legend'>Podés activar el descuento desde <a href='#instatheme=detalle-de-producto'>acá</a></span>
+	title
+		title = Información de cuotas
+	checkbox
+		name = show_installments
+		description = Mostrar cuotas en listado de productos
+	checkbox
+		name = show_price_icons
+		description = Mostrar ícono de tarjetas
+	checkbox
+		name = installments_bold
+		description = Usar texto en negrita para las cuotas en los listados y detalle de producto
+	title
+		title = Precio unitario
+	checkbox
+		name = item_unity_price
+		description = Mostrar el precio unitario
+	subtitle
+		subtitle = <span class='legend'>El precio por unidad se mostrará si existe una variante de producto con el nombre 'Cantidad'</span>
+	collapse
+		title = Producto sin stock
+	subtitle
+		subtitle = Precio del producto	
+	checkbox
+		name = show_nostock_price
+		description = Mostrar el precio del producto cuando no hay stock
+	collapse
+		title = Botones
+	title
+		title = Botón de compra
+	checkbox
+		name = show_add_button
+		description = Mostrar botón de compra
+	checkbox
+		name = add_button_icon
+		description = Mostrar el ícono del carrito en el botón
+	i18n_input
+		name = add_button_text
+		description = Texto del botón
+	title
+		title = Compra rápida
+	checkbox
+		name = quick_shop
+		description = Permitir que tus clientes puedan agregar productos a su carrito rápidamente desde el listado de productos
+	checkbox
+		name = show_quickshop_button
+		description = Mostrar un segundo botón para la compra rápida (ícono de carrito)
+	title
+		title = Botón de WhatsApp
+	checkbox
+		name = item_whatsapp_btn
+		description = Mostrar botón de WhatsApp
+
+Detalle de producto
+	meta
+		icon = cube
+		advanced = true
+	collapse
+		title = Encabezado
+	checkbox
+		name = show_product_header
+		description = Mostrar navegación estructural (Categoría > Producto)
+	collapse
+		title = Información del producto
+	checkbox
+		name = show_sku
+		description = Mostrar código SKU
+	checkbox
+		name = product_brand
+		description = Mostrar marca
+	checkbox
+		name = product_stock
+		description = Mostrar stock disponible
+	checkbox
+		name = product_discount_percentage
+		description = Mostrar porcentaje de descuento junto al precio
+	checkbox
+		name = bullet_variants
+		description = Mostrar variantes como botones
+	checkbox
+		name = image_color_variants
+		description = Mostrar la foto de la variante del color como botón		
+	checkbox
+		name = product_tags
+		description = Mostrar tags del producto
+	checkbox
+		name = show_testimonials
+		description = Mostrar testimonios en la página del producto
+	checkbox
+		name = show_social_share
+		description = Mostrar opciones para compartir
+	subtitle
+		subtitle = Productos vendidos
+	checkbox
+		name = products_sold
+		description = Mostrar cantidad de productos vendidos
+	text
+		description = Mostrar cuando las ventas del producto sean mayor a:
+		name = quantity_products_sold
+		placeholder = Ej.: 10
+	subtitle
+		subtitle = Descripción
+	checkbox
+		name = side_description
+		description = Mostrar la descripción debajo del botón de compra
+	i18n_input
+		name = product_description_title
+		description = Título de la descripción
+	subtitle
+		subtitle = Productos relacionados
+	i18n_input
+		description = Título para los productos alternativos
+		name = products_related_title
+	i18n_input
+		description = Título para los productos complementarios
+		name = products_complementary_title
+
+	collapse
+		title = Precio del producto
+	title
+		title = Precio destacado
+	dropdown
+		name = product_featured_price
+		description = Elegir el precio para destacar
+		values
+			price = Precio principal
+			offer = Precio con descuento
+	dropdown
+		name = product_featured_price_size
+		description = Tamaño
+		values
+			small = Chico
+			medium = Mediano
+			large = Grande
+	title
+		title = Precio principal
+	checkbox
+		name = product_price_color
+		description = Usar este color
+	color
+		name = product_price_foreground_color
+		description = Color del texto
+	title
+		title = Descuento por medio de pago
+	checkbox
+		name = product_payment_discount_price_color
+		description = Usar este color
+	color
+		name = product_payment_discount_price_foreground_color
+		description = Color del texto
+	subtitle
+		subtitle = <span class='legend'>Si está desactivado, se usará el color configurado en Item de producto.</span>
+	subtitle
+		subtitle = <span class='legend'>Podés activar el descuento desde <a href='#instatheme=detalle-de-producto'>acá</a></span>
+	
+	collapse
+		title = Galería de fotos
+	dropdown
+		name = product_gallery_layout
+		description = Diseño de la galería en celulares
+		values
+			thumbs = Mostrar miniaturas
+			next = Mostrar una parte de la siguiente foto
+	dropdown
+		name = product_gallery_zoom
+		description = Cómo ampliar las imágenes de la galería en computadoras
+		values
+			zoom = Ampliar al pasar el mouse
+			modal = Abrir un pop-up al hacer click
+	checkbox
+		name = product_video_description
+		description = Mostrar el video abajo del formulario de compra
+	subtitle
+		subtitle = Galería por variante de color
+	checkbox
+		name = product_gallery_color_variants
+		description = Mostrar sólo las imágenes relacionadas a la variante de color seleccionada
+	dropdown
+		name = product_gallery_color_variants_view
+		description = Cuales imágenes mostrar
+		show_if_value = product_gallery_color_variants
+		values
+			active = Sólo las de la variante activa
+			all = De la variante activa y las sin variante vinculada
+	subtitle
+		subtitle = <span class='legend'>Para vincular una imagen a un color, debes escribir el nombre de la variante en el texto alternativo de la imagen del <a href='/admin/products/' target='_blank'>producto</a>.</span>
+
+	collapse
+		title = Banner promocional
+	checkbox
+		name = product_banner_show
+		description = Mostrar banner promocional
+	image
+		original = product-banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 720
+		height = 240
+	i18n_input
+		name = product_banner_url
+		description = Link
+
+	collapse
+		title = Opciones de compra y pago
+	checkbox
+		name = product_detail_installments
+		description = Mostrar cuotas en la página de producto
+	checkbox
+		name = fixed_product_form
+		description = Fijar el botón de compra al hacer scroll
+	checkbox
+		name = last_product
+		description = Mostrar un mensaje para incentivar la compra cuando quede la última unidad
+	i18n_input
+		description = Mensaje
+		name = last_product_text
+	subtitle
+		subtitle = Descuento por medio de pago
+	checkbox
+		name = payment_discount_price
+		description = Mostrar el precio con mayor descuento en los listados, el detalle de producto y el carrito de compras
+	subtitle
+		subtitle = <a target='_blank' href='/admin/payments/'>Configurá descuentos para tus medios de pago.</a>
+	subtitle
+		subtitle = Botón de WhatsApp
+	checkbox
+		name = btn_whatsapp
+		description = Mostrar un botón de WhatsApp en el producto</br><span style='margin-top: 5px; color: #aaa;'>Configurá el número <a target='_blank' href='/admin/whatsapp/'>acá</a></span>
+	dropdown
+		name = whatsapp_btn_show
+		description = Mostrar en
+		values
+			stock = Los productos con stock
+			nostock = Los productos sin stock
+			all = Todos los productos
+	subtitle
+		subtitle = <span class='legend'>También aplica a los listados de productos</span>
+	text
+		name = whatsapp_btn_text
+		description = Texto
+	subtitle
+		subtitle = Botón de compra
+	i18n_input
+		name = product_button_text
+		description = Texto
+
+	collapse
+		title = Precio unitario
+	checkbox
+		name = product_unity_price
+		description = Mostrar el precio unitario
+	subtitle
+		subtitle = <span class='legend'>El precio por unidad se mostrará si existe una variante de producto con el nombre 'Cantidad'</span>
+
+	collapse
+		title = Guía de talles
+	subtitle
+		subtitle = Cuando un producto tenga variantes de 'Talle', podés mostrar un pop-up con las medidas. Solo necesitás <a target='_blank' href='/admin/pages/'>crear una página</a> e incluir su link debajo.
+	i18n_input
+		name = size_guide_url
+		description = Link de la página
+	description
+		description = Ej: https://tudominio.com/guia-de-talles/
+
+	collapse
+		title = Formas de entrega
+	checkbox_global
+		name = shipping_calculator_product_page
+		description = Mostrar el calculador de costos de envío y locales físicos en la página de producto
+	subtitle
+		subtitle = <a target='_blank' href='/admin/shipping/'>Agregar medios de envío o locales físicos</a>
+	dropdown
+		name = shipping_calculator_layout
+		description = Diseño del calculador
+		values
+			default = Abierto
+			closed = Cerrado
+	subtitle
+		subtitle = Locales físicos
+	i18n_input
+		name = shipping_calculator_title
+		description = Título del bloque
+
+	collapse
+		title = Información de compra
+	description
+		description = Agregá información al producto para concretar una compra. Por ejemplo: Cambios y devoluciones, políticas de cancelación o información sobre la entrega.
+	dropdown
+		name = product_informative_position
+		description = Posición de la información
+		values
+			top = Arriba del producto
+			form = Debajo del formulario
+			middle = Debajo del producto
+			bottom = Debajo de la descripción
+	checkbox
+		name = product_informative_carousel_mobile
+		description = Mostrar información en un carrusel en celulares
+	subtitle
+		subtitle = Información 1
+	checkbox
+		name = product_informative_banner_01_show
+		description = Mostrar información
+	dropdown
+		name = product_informative_banner_01_icon
+		description = Ícono
+		values
+			none = Sin ícono
+			security = Seguridad
+			guarantee = Garantía
+			returns = Cambios y devoluciones
+			delivery = Entrega
+			cash = Pago en efectivo
+			whatsapp = WhatsApp
+			info = Información
+			credit = Tarjetas
+			notification = Notificaciones
+			warning = Alerta
+			box-cancel = Cancelación
+	i18n_input
+		name = product_informative_banner_01_title
+		description = Título
+	i18n_input
+		name = product_informative_banner_01_description
+		description = Descripción
+	subtitle
+		subtitle = Información 2
+	checkbox
+		name = product_informative_banner_02_show
+		description = Mostrar información
+	dropdown
+		name = product_informative_banner_02_icon
+		description = Ícono
+		values
+			none = Sin ícono
+			security = Seguridad
+			guarantee = Garantía
+			returns = Cambios y devoluciones
+			delivery = Entrega
+			cash = Pago en efectivo
+			whatsapp = WhatsApp
+			info = Información
+			credit = Tarjetas
+			notification = Notificaciones
+			warning = Alerta
+			box-cancel = Cancelación
+	i18n_input
+		name = product_informative_banner_02_title
+		description = Título
+	i18n_input
+		name = product_informative_banner_02_description
+		description = Descripción
+	subtitle
+		subtitle = Información 3
+	checkbox
+		name = product_informative_banner_03_show
+		description = Mostrar información
+	dropdown
+		name = product_informative_banner_03_icon
+		description = Ícono
+		values
+			none = Sin ícono
+			security = Seguridad
+			guarantee = Garantía
+			returns = Cambios y devoluciones
+			delivery = Entrega
+			cash = Pago en efectivo
+			whatsapp = WhatsApp
+			info = Información
+			credit = Tarjetas
+			notification = Notificaciones
+			warning = Alerta
+			box-cancel = Cancelación
+	i18n_input
+		name = product_informative_banner_03_title
+		description = Título
+	i18n_input
+		name = product_informative_banner_03_description
+		description = Descripción
+
+	collapse
+		title = Campos personalizados
+	checkbox
+		name = show_custom_fields
+		description = Mostrar campos personalizados
+	subtitle
+		subtitle = Campo 1
+	i18n_input
+		name = custom_cf1_name
+		description = Nombre para la referencia (mostrado en el carrito y en el checkout)
+	i18n_input
+		name = custom_cf1_text
+		description = Texto de la etiqueta
+	text
+		name = custom_cf1_tag
+		description = Tag de referencia (para productos específicos)
+	subtitle
+		subtitle = Campo 2
+	i18n_input
+		name = custom_cf2_name
+		description = Nombre para la referencia (mostrado en el carrito y en el checkout)
+	i18n_input
+		name = custom_cf2_text
+		description = Texto de la etiqueta	
+	text
+		name = custom_cf2_tag
+		description = Tag de referencia (para productos específicos)
+	subtitle
+		subtitle = <span class='legend'><strong>⚠️ Atención:</strong><br/>Por defecto, los campos personalizados se muestran en todos los productos de la tienda. La tag de referencia es necesaria si deseás incluir el campo solo en productos específicos, necesitando agregar la misma tag en el producto.</span>
+
+	collapse
+		title = Sellos personalizados
+	checkbox
+		name = show_custom_seals
+		description = Mostrar sellos en la página del producto
+	checkbox
+		name = show_card_seals
+		description = Mostrar sellos en el item de producto		
+	dropdown
+		name = seals_position
+		description = Ubicación de los sellos
+		values
+			top-left = Arriba a la izquierda
+			item-description = Abajo de la imagen
+	subtitle
+		subtitle = Imagen del sello
+	gallery
+		name = custom_seals
+		gallery_image = Agregar imagen
+		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
+		gallery_width = 50
+		gallery_height = 30
+		gallery_more_info = true
+	i18n_input
+		name = seal_title
+		description = Título de los sellos en el detalle de producto
+	subtitle
+		subtitle = Descripción
+	checkbox
+		name = show_seal_description
+		description = Mostrar descripción
+	dropdown
+		name = seal_description_position_desktop
+		description = Posición de la descripción en computadoras
+		values
+			right = A la derecha del sello
+			bottom = Abajo del sello
+	dropdown
+		name = seal_description_position_mobile
+		description = Posición de la descripción en celulares
+		values
+			right = A la derecha del sello
+			bottom = Abajo del sello
+	text
+		name = seal_height
+		description = Altura del sello en pixels
+	subtitle
+		subtitle = <span class='legend'>Ingresá solamente números</span>
+	text
+		name = seal_limit
+		description = Límite de sellos en el item
+	subtitle
+		subtitle = <span class='legend'>Ingresá solamente números</span>
+
+	collapse
+		title = Términos de aceptación
+	checkbox
+		name = show_product_terms
+		description = Mostrar los términos de aceptación
+	dropdown
+		name = show_terms_rule
+		description = Mostrar en
+		values
+			tag = Productos que tengan la tag
+			all = Todos los productos
+			except = Todos excepto los que tengan la tag
+	i18n_input
+		name = product_terms_tag
+		description = Palabra clave
+	subtitle
+		subtitle = <span class='js-description-html legend'>Agrega la misma palabra en las tags del producto deseado</span>
+	i18n_input
+		name = product_terms_title
+		description = Título
+	i18n_input
+		name = product_terms_text
+		description = Mensaje
+	subtitle
+		subtitle = <span class='legend'><strong>Importante:</strong> Los términos de aceptación se muestran en la página del producto para que el cliente esté de acuerdo, y luego autorice agregar el producto al carrito.</span>
+
+Página personalizada
+	meta
+		advanced = true
+	checkbox
+		name = custom_page_show
+		description = Personalizar página
+	i18n_input
+		name = custom_page_link
+		description = Link de la página para personalizar
+	subtitle
+		subtitle = Es necesario <a target='_blank' href='/admin/pages/'>crear una página</a> e incluir el link arriba
+	collapse
+		title = Sección 1
+	checkbox
+		name = custom_page_section_1_colors
+		description = Usar estos colores
+	color
+		name = custom_page_section_1_background_color
+		description = Color de fondo
+	color
+		name = custom_page_section_1_foreground_color
+		description = Color de texto
+	image
+		title = Imagem
+		original = custom_page_section_1.jpg
+		width = 600
+		height = 600
+	i18n_input
+		name = custom_page_section_1_title
+		description = Título
+	i18n_input
+		name = custom_page_section_1_text
+		description = Texto
+	i18n_input
+		name = custom_page_section_1_button
+		description = Texto del botón
+	color
+		name = custom_page_section_1_button_background_color
+		description = Color de fondo del botón
+	color
+		name = custom_page_section_1_button_foreground_color
+		description = Color de texto del botón
+	i18n_input
+		name = custom_page_section_1_url
+		description = Link
+	checkbox
+		name = custom_page_section_1_external
+		description = Abrir link en una nueva ventana
+	collapse
+		title = Sección 2
+	checkbox
+		name = custom_page_section_2_colors
+		description = Usar estos colores
+	color
+		name = custom_page_section_2_background_color
+		description = Color de fondo
+	color
+		name = custom_page_section_2_foreground_color
+		description = Color de texto
+	image
+		title = Imagem
+		original = custom_page_section_2.jpg
+		width = 600
+		height = 600
+	i18n_input
+		name = custom_page_section_2_title
+		description = Título
+	i18n_input
+		name = custom_page_section_2_text
+		description = Texto
+	i18n_input
+		name = custom_page_section_2_button
+		description = Texto del botón
+	color
+		name = custom_page_section_2_button_background_color
+		description = Color de fondo del botón
+	color
+		name = custom_page_section_2_button_foreground_color
+		description = Color de texto del botón
+	i18n_input
+		name = custom_page_section_2_url
+		description = Link
+	checkbox
+		name = custom_page_section_2_external
+		description = Abrir link en una nueva ventana
+	collapse
+		title = Sección 3
+	checkbox
+		name = custom_page_section_3_colors
+		description = Usar estos colores
+	color
+		name = custom_page_section_3_background_color
+		description = Color de fondo
+	color
+		name = custom_page_section_3_foreground_color
+		description = Color de texto
+	image
+		title = Imagem
+		original = custom_page_section_3.jpg
+		width = 600
+		height = 600
+	i18n_input
+		name = custom_page_section_3_title
+		description = Título
+	i18n_input
+		name = custom_page_section_3_text
+		description = Texto
+	i18n_input
+		name = custom_page_section_3_button
+		description = Texto del botón
+	color
+		name = custom_page_section_3_button_background_color
+		description = Color de fondo del botón
+	color
+		name = custom_page_section_3_button_foreground_color
+		description = Color de texto del botón
+	i18n_input
+		name = custom_page_section_3_url
+		description = Link
+	checkbox
+		name = custom_page_section_3_external
+		description = Abrir link en una nueva ventana
+	collapse
+		title = Sección 4
+	checkbox
+		name = custom_page_section_4_colors
+		description = Usar estos colores
+	color
+		name = custom_page_section_4_background_color
+		description = Color de fondo
+	color
+		name = custom_page_section_4_foreground_color
+		description = Color de texto
+	image
+		title = Imagem
+		original = custom_page_section_4.jpg
+		width = 600
+		height = 600
+	i18n_input
+		name = custom_page_section_4_title
+		description = Título
+	i18n_input
+		name = custom_page_section_4_text
+		description = Texto
+	i18n_input
+		name = custom_page_section_4_button
+		description = Texto del botón
+	color
+		name = custom_page_section_4_button_background_color
+		description = Color de fondo del botón
+	color
+		name = custom_page_section_4_button_foreground_color
+		description = Color de texto del botón
+	i18n_input
+		name = custom_page_section_4_url
+		description = Link
+	checkbox
+		name = custom_page_section_4_external
+		description = Abrir link en una nueva ventana
+	collapse
+		title = Sección 5
+	checkbox
+		name = custom_page_section_5_colors
+		description = Usar estos colores
+	color
+		name = custom_page_section_5_background_color
+		description = Color de fondo
+	color
+		name = custom_page_section_5_foreground_color
+		description = Color de texto
+	image
+		title = Imagem
+		original = custom_page_section_5.jpg
+		width = 600
+		height = 600
+	i18n_input
+		name = custom_page_section_5_title
+		description = Título
+	i18n_input
+		name = custom_page_section_5_text
+		description = Texto
+	i18n_input
+		name = custom_page_section_5_button
+		description = Texto del botón
+	color
+		name = custom_page_section_5_button_background_color
+		description = Color de fondo del botón
+	color
+		name = custom_page_section_5_button_foreground_color
+		description = Color de texto del botón
+	i18n_input
+		name = custom_page_section_5_url
+		description = Link
+	checkbox
+		name = custom_page_section_5_external
+		description = Abrir link en una nueva ventana
+
+Página en construcción
+	meta
+		icon = lock
+	description
+		description = Imagen de la página en construcción
+	image
+		original = password_banner.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1200
+		height = 600
+	dropdown
+		name = password_banner_position
+		description = Posición de la imagen
+		values
+			top = Arriba del texto
+			bottom = Debajo del texto
+			form = Debajo del formulario
+
+Carrito de compras
+	meta
+		icon = shopping-cart
+		advanced = true
+	collapse
+		title = Banner
+	checkbox
+		name = cart_banner_show
+		description = Mostrar banner
+	i18n_input
+		name = cart_banner_url
+		description = Link
+	image
+		title = Imagen
+		original = cart_banner.png
+		width = 420
+		height = 85
+	collapse
+		title = Monto mínimo de compra
+	text
+		name = cart_minimum_value
+		description = ¿Cuál es el monto mínimo que tus clientes deben gastar?
+		placeholder = Ex.: 300
+	subtitle
+		subtitle = <span class='legend'>Ingresá solamente números</span>
+	collapse
+		title = Carrito de compras rápidas
+	checkbox
+		name = ajax_cart
+		description = Tus clientes pueden agregar y ver los productos que van a comprar sin necesidad de ir a otra página, ya que la información está siempre visible.
+	checkbox
+		name = cart_toggle
+		description = Mostrar el carrito de compras al agregar un producto. No aplica si las recomendaciones de productos están activas.
+	checkbox
+		name = continue_buying
+		description = Mostrar el botón 'Ver más productos'
+	dropdown
+		name = cart_continue_action
+		description = Acción al hacer click en 'Ver más productos'
+		values
+			products = Ir a la página de productos
+			modal = Cerrar el carrito
+	collapse
+		title = Notificaciones
+	checkbox
+		name = cart_notification_first
+		description = Mantener la notificación del primer producto agregado al carrito		
+	collapse
+		title = Formas de entrega
+	checkbox_global
+		name = shipping_calculator_cart_page
+		description = Mostrar el calculador de costos de envío y locales físicos en el carrito
+	checkbox
+		name = show_progressbar
+		description = Mostrar la barra de progreso del envío
+	dropdown
+		name = progressbar_colors
+		description = Color de la barra
+		values
+			default = Rojo a verde
+			shop = Colores de tu marca
+	subtitle
+		subtitle = Configurá el envío gratis <a target='_blank' href='/admin/free-shipping/'>acá</a>. (No funciona con limitación por áreas geográficas)
+	subtitle
+		subtitle = <span class='legend'><strong>Observación:</strong> Para la visualización de la barra de progreso es necesario una regla única de envío gratis</span>
+	collapse
+		title = Cupones de descuento
+	checkbox
+		name = cart_coupon
+		description = Permitir que tus clientes apliquen un cupón de descuento en el carrito
+	subtitle
+		subtitle = <a target='_blank' href='https://ayuda.tiendanube.com/es_AR/123465-cupones-y-promociones/que-son-los-cupones-de-descuento' class='js-checkbox-help-link'>Más sobre cupones de descuento</a>
+	collapse
+		title = Recomendaciones de productos
+	checkbox
+		name = add_to_cart_recommendations
+		description = Sugerir productos complementarios al agregar uno al carrito de compras rápidas
+	subtitle
+		subtitle = <a target='_blank' href='https://ayuda.tiendanube.com/es_AR/123159-detalle-del-producto/como-seleccionar-los-productos-relacionados-en-tiendanube' class='js-checkbox-help-link'>Más sobre productos relacionados</a>
+
+Pie de página
+	meta
+		icon = arrow-down
+		advanced = true
+	collapse
+		title = Diseño
+	dropdown
+		name = footer_layout
+		description = Diseño del pie de página
+		values
+			style1 = 3 bloques con 2 menús
+			style4 = 2 bloques con newsletter en línea
+	subtitle
+		subtitle = Imagen de fondo
+	checkbox
+		name = footer_background
+		description = Mostrar imagen
+	image
+		original = footer_background.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 1920
+		height = 600
+	dropdown
+		name = footer_background_size
+		description = Ajuste de la imagen
+		values
+			auto = Sin ajuste
+			cover = Cubrir el espacio (puede recortar)
+			contain = Mostrar completa (sin recorte)
+	subtitle
+		subtitle = <span class='legend'>Cubrir llena todo el espacio y puede recortar la imagen. Mostrar completa evita recorte y puede dejar márgenes vacíos.</span>
+	dropdown
+		name = footer_background_repeat
+		description = Repetir imagen
+		values
+			no-repeat = No repetir
+			repeat = Repetir
+	subtitle
+		subtitle = Imagen de fondo en celulares
+	checkbox
+		name = footer_background_mobile
+		description = Mostrar imagen
+	image
+		original = footer_background_mobile.jpg
+		title = Cargar imagen (JPG, GIF, PNG)
+		width = 820
+		height = 400
+	dropdown
+		name = footer_background_size_mobile
+		description = Ajuste de la imagen
+		values
+			auto = Sin ajuste
+			cover = Cubrir el espacio (puede recortar)
+			contain = Mostrar completa (sin recorte)
+	subtitle
+		subtitle = <span class='legend'>Cubrir llena todo el espacio y puede recortar la imagen. Mostrar completa evita recorte y puede dejar márgenes vacíos.</span>
+	dropdown
+		name = footer_background_repeat_mobile
+		description = Repetir imagen
+		values
+			no-repeat = No repetir
+			repeat = Repetir
+
+	collapse
+		title = Colores
+	checkbox
+		name = footer_colors
+		description = Usar estos colores
+	color
+		name = footer_background_color
+		description = Color de fondo
+	color
+		name = footer_foreground_color
+		description = Color de texto
+	color
+		name = footer_titles_color
+		description = Color de los títulos
+	color
+		name = footer_icons_color
+		description = Color de los íconos
+	subtitle
+		subtitle = Newsletter
+	checkbox
+		name = footer_form_colors
+		description = Usar estos colores
+	color
+		name = footer_form_background_color
+		description = Color de fondo
+	color
+		name = footer_form_foreground_color
+		description = Color de textos
+	color
+		name = footer_form_input_background_color
+		description = Color de fondo del campo
+	color
+		name = footer_form_input_foreground_color
+		description = Color de texto del campo
+	color
+		name = footer_form_button_background_color
+		description = Color de fondo del botón
+	color
+		name = footer_form_button_foreground_color
+		description = Color de texto del botón
+	color
+		name = footer_social_icons_color
+		description = Color de los íconos de redes sociales
+	
+	collapse
+		title = Logo
+	subtitle
+		subtitle = Elegí un logo para el pie de página
+	image
+		title = Logo del pie de página
+		original = footer_logo.png
+		width = 300
+		height = 200
+
+	collapse
+		title = Suscripción al newsletter
+	checkbox
+		name = news_show
+		description = Permitir que tus clientes se registren para recibir novedades
+	checkbox
+		name = news_phone
+		description = Mostrar campo de teléfono/WhatsApp
+	i18n_input
+		name = news_title
+		description = Título
+	i18n_input
+		name = news_text
+		description = Descripción
+	i18n_input
+		name = news_send
+		description = Texto del botón
+
+	collapse
+		title = Menúes
+	title
+		title = Menú principal
+	checkbox
+		name = footer_menu_show
+		description = Mostrar menú
+	menu
+		name = footer_menu
+		description = Elegir un menú para mostrar
+	i18n_input
+		name = footer_menu_title
+		description = Título
+	title
+		title = Menú secundario
+	checkbox
+		name = footer_menu_secondary_show
+		description = Mostrar menú
+	menu
+		name = footer_menu_secondary
+		description = Elegir un menú para mostrar
+	i18n_input
+		name = footer_menu_secondary_title
+		description = Título
+	subtitle
+		subtitle = <a target='_blank' href='https://ayuda.tiendanube.com/es_AR/123259-menues/como-cambiar-el-menu-inferior-de-mi-tienda'>¿Cómo cambio el menú inferior de mi tienda?</a>
+	
+	collapse
+		title = Redes sociales
+	title
+		title = WhatsApp
+	i18n_input
+		name = wpp_message
+		description = Mensaje de contacto para el botón de WhatsApp
+	title
+		title = LinkedIn
+	i18n_input
+		name = linkedin_account
+		description = Link del perfil en LinkedIn
+
+	collapse
+		title = Sobre nosotros
+	checkbox
+		name = footer_about_show
+		description = Mostrar texto
+	i18n_input
+		name = footer_about_title
+		description = Título
+	i18n_input
+		name = footer_about_description
+		description = Descripción
+
+	collapse
+		title = Atención al cliente
+	checkbox
+		name = footer_contact_show
+		description = Mostrar datos de contacto
+	i18n_input
+		name = footer_contact_title
+		description = Título
+	i18n_input
+		name = store_hours
+		description = Horarios de atención
+
+	collapse
+		title = Medios de pago
+	checkbox_global
+		name = payments_show
+		description = Mostrar medios de pago en tu tienda		
+	checkbox
+		name = payments_gray
+		description = Imágenes en escala de grises
+	dropdown
+		name = payments_logos
+		description = Mostrar medios de pago
+		values
+			default = Predeterminadas
+			custom = Personalizadas		
+	subtitle
+		subtitle = Medios de pago personalizados
+	checkbox
+		name = payment_visa
+		description = Visa
+	checkbox
+		name = payment_mastercard
+		description = Mastercard
+	checkbox
+		name = payment_amex
+		description = Amex
+	checkbox
+		name = payment_diners
+		description = Diners		
+	checkbox
+		name = payment_mercadopago
+		description = Mercado Pago
+	checkbox
+		name = payment_paypal
+		description = PayPal					
+
+	collapse
+		title = Medios de envío
+	checkbox_global
+		name = shipping_show
+		description = Mostrar medios de envío en tu tienda
+	checkbox
+		name = shipping_gray
+		description = Imágenes en escala de grises			
+	subtitle
+		subtitle = Medios de envío adicionales
+	checkbox
+		name = shipping_transport
+		description = Transportadora
+	checkbox
+		name = shipping_moto
+		description = Moto
+	checkbox
+		name = shipping_person
+		description = Entrega propia
+
+	collapse
+		title = Seguridad y Certificaciones
+	checkbox
+		name = google_security
+		description = Mostrar sello de Google Safe Browsing
+	dropdown
+		name = security_color
+		description = Colores del sello
+		values
+			color = Gris
+			mono = Negro
+			white = Blanco
+	subtitle
+		subtitle = Sellos personalizados en el footer
+	description
+		description = Podés agregar sellos de dos formas: subiendo una imagen o pegando el código Javascript o HTML
+	image
+		title = Imagen del sello
+		original = seal_img.jpg
+		width = 24
+		height = 24
+		url = seal_url
+		url_description = [Opcional] Página web externa a la que llevará la imagen del sello al hacer clic
+	subtitle
+		subtitle = Código Javascript o HTML del sello
+	textarea
+		name = custom_seal_code
+
+	collapse
+		title = Créditos de la tienda
+	subtitle
+		subtitle = Título de la página
+	checkbox
+		name = footer_page_title
+		description = Mostrar título de la página actual en el pie de página
+	subtitle
+		subtitle = Imagen para los créditos
+	image
+		title = Cargar imagen (JPG, GIF, PNG)
+		original = credits_logo.jpg
+		width = 120
+		height = 40
+	i18n_input
+		name = credits_logo_url
+		description = Link
+
+Edición avanzada de CSS
+	meta
+		icon = code
+		advanced = true
+	subtitle
+		subtitle = Para diseñadores web
+	css_code
+		name = css_code
+		description = Acá podes escribir código CSS para que se muestre en tu tienda
+	subtitle
+		subtitle = <a target='_blank' href='https://ayuda.tiendanube.com/es_ES/123225-edicion-avanzada-de-css/como-editar-el-diseno-con-codigo-css'>¿Cómo edito el código CSS de mi tienda?</a>
