@@ -47,7 +47,7 @@
 
                             {# Phone input #}
 
-                            {% embed "snipplets/forms/form-input-inline.tpl" with{input_for: 'phone', type_text: true, input_name: 'phone', input_id: 'phone', input_custom_class: 'phone flex-grow-1 mb-2 mb-md-0', input_placeholder: 'Teléfono/WhatsApp' | translate, input_aria_label: 'Teléfono/WhatsApp' | translate } %}
+                            {% embed "snipplets/forms/form-input-inline.tpl" with{input_for: 'home-newsletter-phone', type_text: true, input_name: 'phone', input_id: 'home-newsletter-phone', input_custom_class: 'phone flex-grow-1 mb-2 mb-md-0', input_placeholder: 'Teléfono/WhatsApp' | translate, input_aria_label: 'Teléfono/WhatsApp' | translate } %}
                             {% endembed %}
 
                         {% endif %}
