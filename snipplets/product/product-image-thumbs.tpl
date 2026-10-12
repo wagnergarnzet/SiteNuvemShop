@@ -10,6 +10,6 @@
         </div>
         <img data-sizes="auto" src="{{ 'images/empty-placeholder.png' | static_url }}" data-src="{{ thumb_media.thumbnail }}" class="img-absolute img-absolute-centered lazyautosizes lazyload" alt="{{ 'Video de' | translate }} {% if template != 'product' %}{{ product.name }}{% else %}{{ store.name }}{% endif %}" />
     {% else %}
-        <img data-sizes="auto" src="{{ 'images/empty-placeholder.png' | static_url }}" data-srcset='{{  thumb_media | product_image_url('large') }} 480w, {{  thumb_media | product_image_url('huge') }} 640w' class="img-absolute img-absolute-centered lazyautosizes lazyload" {% if thumb_media.alt %}alt="{{thumb_media.alt}}"{% endif %} />
+        <img data-sizes="auto" src="{{ 'images/empty-placeholder.png' | static_url }}" data-srcset='{{  thumb_media | product_image_url('large') }} 480w, {{  thumb_media | product_image_url('huge') }} 640w' class="img-absolute img-absolute-centered lazyautosizes lazyload" alt="{{ thumb_media.alt ?: (product.name ~ ' - miniatura ' ~ (thumb_loop + 1)) }}" />
     {% endif %}
 </a>

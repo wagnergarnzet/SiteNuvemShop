@@ -979,7 +979,7 @@ DOMContentLoaded.addEventOrExecute(() => {
         };
 
         var preloadImagesValue = false;
-        var lazyValue = true;
+        var lazyValue = { loadPrevNext: true, loadPrevNextAmount: 1, loadOnTransitionStart: true };
         var loopValue = true;
         var paginationClickableValue = true;
 

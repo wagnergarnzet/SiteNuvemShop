@@ -44,7 +44,7 @@
 									{% if apply_lazy_load %}data-{% endif %}srcset="{{ slide.image | static_url | settings_image_url('large') }} 480w, {{ slide.image | static_url | settings_image_url('huge') }} 640w, {{ slide.image | static_url | settings_image_url('original') }} 1024w, {{ slide.image | static_url | settings_image_url('1080p') }} 1920w"  
 									class="js-slider-image slider-image {% if settings.slider_animation %}slider-image-animation{% endif %} {% if apply_lazy_load %}swiper-lazy fade-in{% endif %}" alt="{{ 'Carrusel' | translate }} {{ loop.index }}"
 								/>
-								<div class="placeholder-fade"></div>
+								{% if apply_lazy_load %}<div class="placeholder-fade"></div>{% endif %}
 
 								{% if has_text %}
 									<div class="swiper-text{% if settings.slider_align == 'center' %} swiper-text-centered{% endif %} swiper-text-{{ slide.color }}">

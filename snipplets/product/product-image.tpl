@@ -211,7 +211,7 @@
 											{% if apply_lazy_load %}data-sizes="auto"{% endif %}
 											{% if image.dimensions.width and image.dimensions.height %}width="{{ image.dimensions.width }}" height="{{ image.dimensions.height }}"{% endif %}
 											{% if zoom == "zoom" %}data-zoom="{{ image | product_image_url('4k') }}"{% endif %}
-											{% if image.alt %}alt="{{image.alt}}"{% endif %} />
+											alt="{{ image.alt ?: (product.name ~ ' - foto ' ~ loop.index) }}" />
 
 									{% if home_main_product %}
 										</div>
@@ -251,7 +251,7 @@
 											{% if apply_lazy_load %}data-sizes="auto"{% endif %}
 											{% if media.dimensions.width and media.dimensions.height %}width="{{ media.dimensions.width }}" height="{{ media.dimensions.height }}"{% endif %}
 											{% if zoom == "zoom" %}data-zoom="{{ media | product_image_url('4k') }}"{% endif %}
-											{% if media.alt %}alt="{{media.alt}}"{% endif %} />
+											alt="{{ media.alt ?: (product.name ~ ' - foto ' ~ loop.index) }}" />
 
 									{% if home_main_product %}
 										</div>
