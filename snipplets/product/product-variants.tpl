@@ -31,7 +31,7 @@
 
 		<div class="js-product-variants-group js-variant-container variant-container {% if variation_color %}js-color-variants-container{% endif %} {% if variation_quantity %}js-product-quantity{% endif %} {% if settings.bullet_variants or settings.image_color_variants %}col-12 {% if is_hidden_select or settings.bullet_variants %}mb-2{% endif %}{% endif %} {% if is_button_variant and show_size_guide and settings.size_guide_url and has_size_variations and loop.last %}mb-0{% endif %} {% if not is_button_variant %}{% if loop.length == 1 or loop.length == 3 or settings.image_color_variants %}col-md-8{% else %}col-6{% endif %}{% endif %}" data-variation-id="{{ variation.id }}">
 			{% if quickshop %}
-				{% embed "snipplets/forms/form-select.tpl" with{select_label: true, select_label_name: '' ~ variation.name ~ '', select_for: 'variation_' ~ loop.index , select_id: 'variation_' ~ loop.index, select_name: 'variation' ~ '[' ~ variation.id ~ ']', select_custom_class: 'js-variation-option js-refresh-installment-data form-control-small', select_label_custom_class:'mb-1', select_md: true, select_group_custom_class: hidden_variant_select} %}
+				{% embed "snipplets/forms/form-select.tpl" with{select_label: true, select_label_name: '' ~ variation.name ~ '', select_for: 'variation_' ~ product.id ~ '_' ~ loop.index , select_id: 'variation_' ~ product.id ~ '_' ~ loop.index, select_name: 'variation' ~ '[' ~ variation.id ~ ']', select_custom_class: 'js-variation-option js-refresh-installment-data form-control-small', select_label_custom_class:'mb-1', select_md: true, select_group_custom_class: hidden_variant_select} %}
 					{% block select_options %}
 						{% for option in variation.options %}
 							<option value="{{ option.id }}" {% if product.default_options[variation.id] is same as(option.id) %}selected="selected"{% endif %}>{{ option.name }}</option>
@@ -39,7 +39,7 @@
 					{% endblock select_options %}
 				{% endembed %}
 			{% else %}
-				{% embed "snipplets/forms/form-select.tpl" with{select_label: true, select_label_name: '' ~ variation.name ~ '', select_for: 'variation_' ~ loop.index , select_id: 'variation_' ~ loop.index, select_name: 'variation' ~ '[' ~ variation.id ~ ']', select_custom_class: 'js-variation-option js-refresh-installment-data', select_group_custom_class: hidden_variant_select} %}
+				{% embed "snipplets/forms/form-select.tpl" with{select_label: true, select_label_name: '' ~ variation.name ~ '', select_for: 'variation_' ~ product.id ~ '_' ~ loop.index , select_id: 'variation_' ~ product.id ~ '_' ~ loop.index, select_name: 'variation' ~ '[' ~ variation.id ~ ']', select_custom_class: 'js-variation-option js-refresh-installment-data', select_group_custom_class: hidden_variant_select} %}
 					{% block select_options %}
 						{% for option in variation.options %}
 							<option value="{{ option.id }}" {% if product.default_options[variation.id] is same as(option.id) %}selected="selected"{% endif %}>{{ option.name }}</option>
