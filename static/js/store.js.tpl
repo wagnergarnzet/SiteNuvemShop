@@ -525,9 +525,66 @@ DOMContentLoaded.addEventOrExecute(() => {
             jQueryNuvem(".js-news-popup-submit").prop("disabled", false);
         });
 
+        {# Foco do pop-up: vai para o botao Fechar ao abrir, fica preso no pop-up, Esc fecha e o foco volta ao fim #}
+        var homePopupFocus = (function () {
+            var previous = null;
+            var observer = null;
+            var getModal = function () { return document.getElementById('home-modal'); };
+            var getFocusables = function (modal) {
+                return Array.prototype.filter.call(
+                    modal.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select, textarea, [tabindex]:not([tabindex="-1"])'),
+                    function (el) { return el.offsetParent !== null; }
+                );
+            };
+            var onKeydown = function (e) {
+                var modal = getModal();
+                if (!modal || !modal.classList.contains('modal-show')) { return; }
+                if (e.key === 'Escape' || e.key === 'Esc') {
+                    var close = modal.querySelector('button.js-modal-close');
+                    if (close) { e.preventDefault(); close.click(); }
+                    return;
+                }
+                if (e.key !== 'Tab') { return; }
+                var items = getFocusables(modal);
+                if (!items.length) { return; }
+                var first = items[0];
+                var last = items[items.length - 1];
+                if (!modal.contains(document.activeElement)) {
+                    e.preventDefault();
+                    first.focus();
+                } else if (e.shiftKey && document.activeElement === first) {
+                    e.preventDefault();
+                    last.focus();
+                } else if (!e.shiftKey && document.activeElement === last) {
+                    e.preventDefault();
+                    first.focus();
+                }
+            };
+            return {
+                open: function () {
+                    var modal = getModal();
+                    if (!modal) { return; }
+                    previous = document.activeElement;
+                    var close = modal.querySelector('button.js-modal-close');
+                    if (close) { close.focus(); }
+                    document.addEventListener('keydown', onKeydown);
+                    if (observer) { observer.disconnect(); }
+                    observer = new MutationObserver(function () {
+                        if (modal.classList.contains('modal-show')) { return; }
+                        observer.disconnect();
+                        document.removeEventListener('keydown', onKeydown);
+                        if (previous && document.contains(previous) && previous.focus) { previous.focus(); }
+                        previous = null;
+                    });
+                    observer.observe(modal, { attributes: true, attributeFilter: ['class'] });
+                }
+            };
+        })();
+
         var callback_show = function(){
             jQueryNuvem('.js-modal-overlay[data-modal-id="#home-modal"]').fadeIn(500);
             jQueryNuvem("#home-modal").detach().appendTo("body").show().addClass("modal-show");
+            homePopupFocus.open();
         }
         var callback_hide = function(){
             jQueryNuvem('.js-modal-overlay[data-modal-id="#home-modal"]').fadeOut(500);
