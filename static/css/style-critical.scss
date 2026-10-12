@@ -6467,6 +6467,9 @@ footer .social-icon svg {
 .home-popup {
 	width: calc(100% - 40px);
 }
+.modal.home-popup {
+	transition: opacity 0.3s ease-in-out;
+}
 .home-popup.modal-show {
 	left: 20px;
 }
