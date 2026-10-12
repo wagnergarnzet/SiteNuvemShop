@@ -4462,7 +4462,10 @@ input[type="radio"]{
 	background: var(--main-background);
 	color: var(--main-foreground);
 	padding: 4px;
-	min-width: 18px;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	min-width: 24px;
+	min-height: 24px;
 	font-size: 10px;
 	border-radius: 18px;
 	line-height: 1;
@@ -6474,6 +6477,10 @@ footer .social-icon svg {
 	left: 20px;
 }
 
+.home-popup-consent a {
+	color: inherit;
+	text-decoration: underline;
+}
 .home-popup .logo-img {
 	max-height: 45px;
 }

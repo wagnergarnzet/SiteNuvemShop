@@ -85,8 +85,8 @@
                             <input type="submit" name="contact" class="js-news-send w-100 btn btn-default" value='{{ "Quiero suscribirme" | translate }}'>    
                         </div>
                     </form>
-                    <span class="text-muted font-smallest d-inline-block mt-1">{{ 'Respetamos tus datos. No enviamos spam' | translate }}.</span>
-                    <span class="text-muted font-smallest d-block mt-1">{{ 'Al suscribirte aceptás recibir novedades de la tienda en los datos de contacto que informes. Más información en nuestra' | translate }}{% for page in pages if 'privacidade' in page.handle or 'privacidad' in page.handle or 'privacy' in page.handle %}{% if loop.first %} <a href="{{ page.url }}" target="_blank" rel="noopener" class="text-muted"><u>{{ 'Política de privacidad' | translate }}</u></a>{% endif %}{% endfor %}.</span>
+                    <span class="font-smallest d-inline-block mt-1">{{ 'Respetamos tus datos. No enviamos spam' | translate }}.</span>
+                    <span class="home-popup-consent font-smallest d-block mt-1">{{ 'Al suscribirte aceptás recibir novedades de la tienda en los datos de contacto que informes. Más información en nuestra' | translate }}{% for page in pages if 'privacidade' in page.handle or 'privacidad' in page.handle or 'privacy' in page.handle %}{% if loop.first %} <a href="{{ page.url }}" target="_blank" rel="noopener"><u>{{ 'Política de privacidad' | translate }}</u></a>{% endif %}{% endfor %}.</span>
                 </div>
                 {% endif %}
             </div>

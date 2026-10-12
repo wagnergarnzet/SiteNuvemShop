@@ -39,9 +39,9 @@
                             {% block modal_head %}{% endblock %}
                         </div>
                         <div class="col-auto">
-                            <a class="js-modal-close modal-close {% if modal_close_floating %}modal-close-floating{% endif %}">
-                                <svg class="icon-inline"><use xlink:href="#times"/></svg>
-                            </a>
+                            <button type="button" class="js-modal-close modal-close {% if modal_close_floating %}modal-close-floating{% endif %}" aria-label="{{ 'Cerrar' | translate }}">
+                                <svg class="icon-inline" aria-hidden="true"><use xlink:href="#times"/></svg>
+                            </button>
                         </div>
                     </div>
                 {% else %}
