@@ -2621,6 +2621,16 @@ pt "Respeitamos seus dados. Não enviamos spam"
 en "We respect your data. We don’t send spam"
 es_mx "Respetamos tus datos. No enviamos spam"
 
+es "Al suscribirte aceptás recibir novedades de la tienda en los datos de contacto que informes. Más información en nuestra"
+pt "Ao se inscrever, você concorda em receber novidades da loja nos contatos que informar. Saiba mais na nossa"
+en "By subscribing you agree to receive store news at the contact details you provide. Learn more in our"
+es_mx "Al suscribirte aceptas recibir novedades de la tienda en los datos de contacto que informes. Más información en nuestra"
+
+es "Política de privacidad"
+pt "Política de Privacidade"
+en "Privacy Policy"
+es_mx "Política de privacidad"
+
 --- --- Orders
 
 es "Razón social"

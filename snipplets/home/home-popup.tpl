@@ -1,10 +1,10 @@
 {% set has_image = "newsletter_image.jpg" | has_custom_image %}
 
-{% embed "snipplets/modal.tpl" with{modal_id: 'home-modal', modal_class: 'bottom modal-overflow-none home-popup' ~ (has_image ? ' has-image' : ''), modal_position: 'bottom', modal_position_desktop: 'centered', modal_transition: 'slide', modal_footer: false, modal_width: ' modal-centered-medium h-auto', modal_header_class: 'modal-header-reverse d-none', modal_body_class: 'modal-scrollable p-0'} %}
+{% embed "snipplets/modal.tpl" with{modal_id: 'home-modal', modal_class: 'bottom modal-overflow-none home-popup' ~ (has_image ? ' has-image' : ''), modal_position: 'bottom', modal_position_desktop: 'centered', modal_transition: 'slide', modal_footer: false, modal_width: ' modal-centered-medium h-auto', modal_header_class: 'modal-header-reverse d-none', modal_body_class: 'modal-scrollable p-0', modal_aria_label: (settings.news_popup_txt ?: ('Newsletter' | translate))} %}
     {% block modal_body %}
-        <a class="js-modal-close modal-close {% if modal_close_floating %}modal-close-floating{% endif %}">
-            <svg class="icon-inline"><use xlink:href="#times"/></svg>
-        </a>
+        <button type="button" class="js-modal-close modal-close {% if modal_close_floating %}modal-close-floating{% endif %}" aria-label="{{ 'Cerrar' | translate }}">
+            <svg class="icon-inline" aria-hidden="true"><use xlink:href="#times"/></svg>
+        </button>
         <div class="row no-gutters {% if not settings.home_popup_form %}align-items-center justify-content-center{% endif %}">
             {% if settings.home_popup_form and "newsletter_image.jpg" | has_custom_image %}
                 {% if "newsletter_image.jpg" | has_custom_image %}
@@ -31,9 +31,9 @@
             {% endif %}
             {% if settings.home_popup_form %}
             <div class="col-12 {% if 'newsletter_image.jpg' | has_custom_image %}col-md-6{% endif %} newsletter p-3 text-center d-flex flex-column align-items-center justify-content-center">
-                <div id="logo" class="logo-newsletter-container {% if not has_logo %}hidden{% else %} d-none d-md-block{% endif %} mx-auto">
+                <div class="logo-newsletter-container {% if not has_logo %}hidden{% else %} d-none d-md-block{% endif %} mx-auto">
                     {% if settings.home_popup_logo %}
-                        <div id="logo" class="logo-newsletter-container {% if not has_logo %}hidden{% else %} d-none d-md-block{% endif %} mx-auto">
+                        <div class="logo-newsletter-container {% if not has_logo %}hidden{% else %} d-none d-md-block{% endif %} mx-auto">
                             {% if 'newsletter_logo.jpg'| has_custom_image %}
                                 {{ 'newsletter_logo.jpg' | static_url | img_tag(store.name, {class: 'logo-img transition-soft-slow'}) | a_tag(store.url) }}
                             {% else %}
@@ -42,7 +42,7 @@
                         </div>
                     {% endif %}
                 </div>
-                <div id="no-logo" class="logo-text-container {% if has_logo %} hidden{% endif %} m-auto">
+                <div class="logo-text-container {% if has_logo %} hidden{% endif %} m-auto">
                     <a class="logo-text h2" href="{{ store.url }}">{{ store.name }}</a>
                 </div>
                 {% if settings.news_popup_txt %}
@@ -86,6 +86,7 @@
                         </div>
                     </form>
                     <span class="text-muted font-smallest d-inline-block mt-1">{{ 'Respetamos tus datos. No enviamos spam' | translate }}.</span>
+                    <span class="text-muted font-smallest d-block mt-1">{{ 'Al suscribirte aceptás recibir novedades de la tienda en los datos de contacto que informes. Más información en nuestra' | translate }}{% for page in pages if 'privacidade' in page.handle or 'privacidad' in page.handle or 'privacy' in page.handle %}{% if loop.first %} <a href="{{ page.url }}" target="_blank" rel="noopener" class="text-muted"><u>{{ 'Política de privacidad' | translate }}</u></a>{% endif %}{% endfor %}.</span>
                 </div>
                 {% endif %}
             </div>
