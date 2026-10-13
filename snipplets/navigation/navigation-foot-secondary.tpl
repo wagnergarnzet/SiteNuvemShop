@@ -1,5 +1,6 @@
+{% import "snipplets/navigation/hidden-menu-urls.tpl" as hidden_menu %}
 <ul class="footer-menu p-0 mb-4 mb-md-0 {% if menus[settings.footer_menu_secondary]|length > 10 %}multi-col{% endif %}">
-	{% for item in menus[settings.footer_menu_secondary] %}
+	{% for item in menus[settings.footer_menu_secondary] if not (hidden_menu.is_hidden(item.url) | trim) %}
 		<li class="footer-menu-item" data-component="menu.item">
 	        <a class="footer-menu-link" href="{{ item.url }}" {% if item.url | is_external %}target="_blank"{% endif %}>{{ item.name }}</a>
 		</li>
