@@ -21,7 +21,7 @@
 	{% endif %}
 
 	{% set item_slug = item.name|replace(" ","-")|lower %}
-	{% if item.subitems %}
+	{% if item.subitems and hidden_menu.has_visible(item.subitems) | trim %}
 		<li class="nav-item {% if desktop_nav and not subitem %}js-item-subitems-desktop nav-dropdown{% endif %} {% if desktop_nav %}nav-item-desktop{% endif %} item-with-subitems position-relative" data-slug="{{ item_slug }}" data-component="menu.item">
 			<div class="nav-item-container {% if not desktop_nav %}js-nav-list-toggle-accordion{% endif %}">
 				<a class="{% if not desktop_nav %}js-toggle-page-accordion{% endif %} nav-list-link {{ item.current ? 'selected' : '' }} d-flex flex-row {% if settings.navigation_icons %}{% if settings.nav_icon_position == "above" %}flex-md-column{% else %}flex-md-row{% endif %}{% endif %} align-items-center justify-content-between{% if settings.menu_uppercase %} text-uppercase{% endif %} {{ featured_link_classes }}" href="{% if desktop_nav %}{{ item.url }}{% else %}#{% endif %}" data-url-cleaned="{{ link_url }}">

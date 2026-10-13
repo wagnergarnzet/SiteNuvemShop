@@ -1,5 +1,5 @@
 {% import "snipplets/navigation/hidden-menu-urls.tpl" as hidden_menu %}
-{% if item.subitems %}
+{% if item.subitems and hidden_menu.has_visible(item.subitems) | trim %}
     <li class="col col-md-4 col-lg-2 mb-3 nav-item item-with-subitems {% if desktop_nav %}nav-item-desktop{% else %}p-0{% endif %}" data-component="menu.item">
         <div class="nav-item-container {% if not desktop_nav %}js-nav-list-toggle-accordion{% endif %}">
             <a class="{% if not desktop_nav %}js-toggle-page-accordion{% endif %} nav-list-link {{ item.current ? 'selected' : '' }}" href="{% if desktop_nav %}{{ item.url }}{% else %}#{% endif %}">{{ item.name }}</a>

@@ -16,7 +16,7 @@
 {% endif %}
 
 {% for item in menu_active if not (hidden_menu.is_hidden(item.url) | trim) %}
-	{% if item.subitems %}
+	{% if item.subitems and hidden_menu.has_visible(item.subitems) | trim %}
     	<li class="col flex-grow-0 nav-item {% if desktop_nav and not subitem %}js-item-subitems-desktop nav-dropdown{% endif %} {% if desktop_nav %}nav-item-desktop d-flex align-items-center justify-content-center{% else %}p-0{% endif %} item-with-subitems {% if subitem %}position-relative{% endif %}" data-slug="{{ item.name|lower }}" data-component="menu.item">
     		<div class="nav-item-container {% if not desktop_nav %}js-nav-list-toggle-accordion{% endif %}">
           <a class="{% if not desktop_nav %}js-toggle-page-accordion{% endif %} nav-list-link {{ item.current ? 'selected' : '' }} d-flex flex-wrap flex-row {% if settings.navigation_icons %}{% if settings.nav_icon_position == "above" %}flex-md-column{% endif %}{% endif %} align-items-center" href="{% if desktop_nav %}{{ item.url }}{% else %}#{% endif %}">

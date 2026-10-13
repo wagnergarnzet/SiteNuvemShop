@@ -21,7 +21,7 @@
 	{% endif %}
 
 	{% set item_slug = item.name|replace(" ","-")|lower %}
-	{% if item.subitems %}
+	{% if item.subitems and hidden_menu.has_visible(item.subitems) | trim %}
     	<li class="{% if subitem %}nav-subitem{% endif %} nav-item navigation-banner {% if desktop_nav %}js-item-subitems-desktop nav-dropdown nav-item-desktop{% endif %} item-with-subitems" data-slug="{{ item_slug }}" data-component="menu.item">
 
     		<div class="nav-item-container {% if not desktop_nav %}js-nav-list-toggle-accordion{% endif %}">

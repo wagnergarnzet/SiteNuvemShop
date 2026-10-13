@@ -5,7 +5,7 @@
 
 {% for item in navigation if not (hidden_menu.is_hidden(item.url) | trim) %}
 	{% set item_slug = item.name|replace(" ","-")|lower %}
-	{% if item.subitems %}
+	{% if item.subitems and hidden_menu.has_visible(item.subitems) | trim %}
     	<li class="{% if desktop_nav %}col {% endif %}nav-item position-relative{% if desktop_nav and not subitem %} js-item-subitems-desktop nav-dropdown{% endif %}{% if desktop_nav %} nav-item-desktop{% endif %} item-with-subitems" data-slug="{{ item_slug }}" data-component="menu.item">
     		<div class="nav-item-container {% if not desktop_nav %}js-nav-list-toggle-accordion{% endif %}">
 	            <a class="{% if not desktop_nav %}js-toggle-page-accordion{% endif %} nav-list-link {{ item.current ? 'selected' : '' }}" href="{% if desktop_nav %}{{ item.url }}{% else %}#{% endif %}">
