@@ -1,3 +1,4 @@
+{% import "snipplets/navigation/hidden-menu-urls.tpl" as hidden_menu %}
 {% if settings.extra_menu_show %}
     <section class="section-home section-home-extra-menu" data-store="home-extra-menu">
         {% if settings.extra_menu_title %}
@@ -12,7 +13,7 @@
         <div class="container {% if not settings.extra_menu_title %}py-4{% endif %}">
             <div class="row">
                 <div class="extra-menu col-12 d-flex align-items-center justify-content-center text-center">
-                    {% for item in menus[settings.extra_menu] %}
+                    {% for item in menus[settings.extra_menu] if not (hidden_menu.is_hidden(item.url) | trim) %}
                         <a href="{{ item.url }}" {% if item.url | is_external %}target="_blank"{% endif %} title="{{ item.name }}"><span>{{ item.name }}</span></a>
                     {% endfor %}
                 </div>

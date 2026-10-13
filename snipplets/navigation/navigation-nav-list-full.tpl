@@ -1,3 +1,4 @@
+{% import "snipplets/navigation/hidden-menu-urls.tpl" as hidden_menu %}
 {% set desktop_nav = desktop_nav | default(false) %}
 {% set mobile_nav = mobile_nav | default(false) %}
 {% set subitem = subitem | default(false) %}
@@ -12,7 +13,7 @@
 	{% set featured_link_url = settings.featured_link_url | split('://') | last | split('/') | slice(1) | join('/') | trim('/') %}
 {% endif %}
 
-{% for item in navigation %}
+{% for item in navigation if not (hidden_menu.is_hidden(item.url) | trim) %}
 
 	{% set link_url = item.url | split('://') | last | split('/') | slice(1) | join('/') | trim('/') %}
 	{% if has_featured_link %}

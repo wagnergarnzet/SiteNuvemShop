@@ -1,8 +1,9 @@
+{% import "snipplets/navigation/hidden-menu-urls.tpl" as hidden_menu %}
 {% set desktop_nav = desktop_nav | default(false) %}
 {% set mobile_nav = mobile_nav | default(false) %}
 {% set subitem = subitem | default(false) %}
 
-{% for item in navigation %}
+{% for item in navigation if not (hidden_menu.is_hidden(item.url) | trim) %}
 	{% set item_slug = item.name|replace(" ","-")|lower %}
 	{% if item.subitems %}
     	<li class="{% if desktop_nav %}col {% endif %}nav-item position-relative{% if desktop_nav and not subitem %} js-item-subitems-desktop nav-dropdown{% endif %}{% if desktop_nav %} nav-item-desktop{% endif %} item-with-subitems" data-slug="{{ item_slug }}" data-component="menu.item">
