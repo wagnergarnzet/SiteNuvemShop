@@ -14,3 +14,18 @@
 {% set menu_path = url | split('://') | last | split('/') | slice(1) | join('/') | trim('/') %}
 {% if menu_path in hidden_menu_paths %}1{% endif %}
 {% endmacro %}
+
+{# Prints something only if at least one of the sub items is NOT hidden (used to drop the dropdown arrow of parents whose children are all hidden). #}
+{% macro has_visible(subitems) %}
+{% set hidden_menu_paths = [
+    'conjuntos',
+    'macacoes-e-jardineiras',
+    'blusas-e-camisetas/casaco',
+    'kit-leve-3-pague-2',
+    'mais-vendidos'
+] %}
+{% for sub in subitems %}
+{% set sub_path = sub.url | split('://') | last | split('/') | slice(1) | join('/') | trim('/') %}
+{% if sub_path not in hidden_menu_paths %}1{% endif %}
+{% endfor %}
+{% endmacro %}
